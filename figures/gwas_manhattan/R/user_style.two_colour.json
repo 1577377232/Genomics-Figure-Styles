@@ -1,0 +1,33 @@
+{
+  "version": "two_colour_equal_points_v5_jointZ96",
+  "authority": "User instructions override the GitHub colour/type/threshold/dimension defaults",
+  "colours": {
+    "SNP": "#386C8C",
+    "TE": "#E75A46"
+  },
+  "colour_source": "GitHub pangenome_spectrum: snp_cycle[1] and te_INS, used as the two marker-class colours",
+  "threshold_p": 1e-05,
+  "chromosome_gap_bp": 12000000,
+  "width_mm": 260,
+  "height_mm": 75,
+  "dpi": 600,
+  "font": "Liberation Sans",
+  "axis_title_pt": 11,
+  "axis_tick_pt": 9.5,
+  "title_pt": 11,
+  "legend_pt": 9,
+  "snp_size_mm": 1.1,
+  "snp_alpha": 0.7,
+  "te_size_mm": 1.1,
+  "te_alpha": 0.85,
+  "te_stroke_mm": 0,
+  "shared_point_shape": 16,
+  "excluded_chromosomes": [
+    "38"
+  ],
+  "threshold_label": false,
+  "tick_min_spacing_mm": 4.8,
+  "te_type_distinction": false,
+  "Z_sex_distinction": false,
+  "title_inside_panel": true
+}

@@ -19,7 +19,7 @@ One genome reference; reproducible chromosome coordinates; consistent color sema
 
 ## Scope
 
-The v2.0 style kit provides visual configuration, documentation, preview generator and **simulated** reference previews. It does **not** contain actual GWAS results or a completed 89-trait plotting application. Codex should implement that pipeline from the real local input data using the instructions in this repository.
+The v2.0 style kit provides visual configuration and documentation. The [executable R workflow](figures/gwas_manhattan/R/README.md) adds tested joint SNP/TE Manhattan plotting for 89 quantitative traits and seven multivariate modules, with the user-approved two-colour preset and joint-sex Z provenance checks. Actual GWAS inputs and completed biological figures remain in the research workspace.
 
 ## Agent instructions
 
