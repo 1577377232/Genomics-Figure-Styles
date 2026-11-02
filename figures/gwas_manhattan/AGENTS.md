@@ -1,0 +1,3 @@
+# Codex instructions — chicken pangenomics figures
+
+Read STYLE_GUIDE.md, theme.json, palettes.json, COLOR_SEMANTICS.md, LITERATURE_REFERENCES.md and CODEX_TASK.md before writing any figures. theme.json is the source of layout and the named palettes in palettes.json are the source of colors. Default to pangenome_spectrum. Preserve 89 real phenotype names; do not fabricate inputs, reference genome, association results, thresholds or provenance. No arbitrary peak capping or GWAS marker downsampling in final results. Keep data in the user's working data repository; this repository holds only style and code specifications. Do not change unrelated files.
