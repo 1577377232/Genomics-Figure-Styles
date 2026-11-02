@@ -1,0 +1,54 @@
+{
+  "schema_version": "2.0.0",
+  "default": "pangenome_spectrum",
+  "palettes": {
+    "pangenome_spectrum": {
+      "label": "Pangenome Spectrum",
+      "intent": "Six-color chromosome rhythm, subdued SNPs and coral/violet TE foreground",
+      "snp_cycle": [
+        "#386C8C",
+        "#7BB6AC",
+        "#9689B9",
+        "#B4AD74",
+        "#5899B2",
+        "#A1A8BE"
+      ],
+      "te_INS": "#E75A46",
+      "te_DEL": "#783D9C",
+      "te_OTHER": "#E4A02C",
+      "lead_outline": "#253246"
+    },
+    "botanical_genome": {
+      "label": "Botanical Genome",
+      "intent": "Botanical verdigris, sage, lavender and clay",
+      "snp_cycle": [
+        "#3F7A62",
+        "#93B8A0",
+        "#568D95",
+        "#AEB5C5",
+        "#8F8FAE",
+        "#C1AC88"
+      ],
+      "te_INS": "#D7553D",
+      "te_DEL": "#7353A6",
+      "te_OTHER": "#DEA53F",
+      "lead_outline": "#253246"
+    },
+    "chromatic_nc": {
+      "label": "Chromatic NC",
+      "intent": "Brighter multihue chromosome background",
+      "snp_cycle": [
+        "#315B90",
+        "#50A7BD",
+        "#8AA45D",
+        "#A388C2",
+        "#D2A259",
+        "#65A69A"
+      ],
+      "te_INS": "#DA4C63",
+      "te_DEL": "#633A99",
+      "te_OTHER": "#E49A31",
+      "lead_outline": "#253246"
+    }
+  }
+}
