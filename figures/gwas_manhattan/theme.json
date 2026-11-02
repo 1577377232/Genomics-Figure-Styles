@@ -1,0 +1,150 @@
+{
+  "schema_version": "2.0.0",
+  "name": "CWD Pan-TE genomics figure theme",
+  "default_palette": "pangenome_spectrum",
+  "palettes_file": "palettes.json",
+  "figure": {
+    "width_mm": 183,
+    "height_mm": 76,
+    "background": "#FFFFFF",
+    "dpi": 600,
+    "primary_formats": [
+      "pdf",
+      "png"
+    ],
+    "final_font_size_pt": {
+      "title": 7,
+      "axis": 7,
+      "ticks": 6.5,
+      "legend": 6.5
+    },
+    "fonts": [
+      "Arial",
+      "Helvetica",
+      "Liberation Sans",
+      "DejaVu Sans"
+    ],
+    "axis_spine_pt": 0.55,
+    "grid": false
+  },
+  "colors": {
+    "axis": "#273746",
+    "text": "#273746",
+    "threshold": "#A9B2BB",
+    "border_soft": "#E3E9ED"
+  },
+  "points": {
+    "snp": {
+      "shape": "o",
+      "size_pt2": 1.1,
+      "alpha": 0.52,
+      "zorder": 1,
+      "rasterized_in_pdf": true
+    },
+    "te_INS": {
+      "shape": "D",
+      "size_pt2": 3.8,
+      "alpha": 0.6,
+      "zorder": 4
+    },
+    "te_DEL": {
+      "shape": "^",
+      "size_pt2": 4.1,
+      "alpha": 0.6,
+      "zorder": 4
+    },
+    "significant_te": {
+      "size_pt2": 15,
+      "alpha": 0.99,
+      "zorder": 5,
+      "requires_validated_threshold": true
+    }
+  },
+  "chromosomes": {
+    "reference_fai_required": true,
+    "preferred_order": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "Z",
+      "W"
+    ],
+    "only_present_in_fai": true,
+    "adaptive_tick_label_collision_mm": 5,
+    "same_offsets_all_traits": true
+  },
+  "thresholds": {
+    "never_hardcode_5e_minus_8": true,
+    "render_only_when_documented": true,
+    "bonferroni_alpha": 0.05,
+    "support_separate_snp_te_and_joint": true
+  },
+  "axes": {
+    "x": "Chromosome",
+    "y": "−log₁₀(P)",
+    "y_min": 0,
+    "y_max": "auto_nice_above_data",
+    "allow_fixed_y_comparison_export": true
+  },
+  "traits": {
+    "expected_count": 89,
+    "require_true_trait_ids": true,
+    "title_language": "en",
+    "category_order": [
+      "growth",
+      "body_size",
+      "carcass",
+      "breast_muscle",
+      "leg_muscle",
+      "skeletal",
+      "fatness",
+      "meat_quality",
+      "other"
+    ]
+  },
+  "outputs": {
+    "pdf_text_vector": true,
+    "pdf_TE_vector": true,
+    "pdf_rasterized_SNP": true,
+    "individual_template": "{trait_id}__joint_manhattan",
+    "write_qc_tsv": true,
+    "write_plot_manifest_json": true,
+    "write_failures_tsv": true
+  }
+}
