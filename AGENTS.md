@@ -1,0 +1,2 @@
+# Repository-level instructions for Codex
+This repository is the authoritative style specification for scientific plots. Read figures/gwas_manhattan/AGENTS.md, STYLE_GUIDE.md, theme.json and CODEX_TASK.md. Do not invent trait identities, results, thresholds, reference-build positions or data files. Keep individual-level data and raw GWAS matrices out of this repository.
