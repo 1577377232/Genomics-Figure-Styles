@@ -1,0 +1,13 @@
+figure.facecolor: white
+axes.facecolor: white
+axes.edgecolor: #273746
+axes.labelcolor: #273746
+xtick.color: #273746
+ytick.color: #273746
+text.color: #273746
+font.family: sans-serif
+pdf.fonttype: 42
+ps.fonttype: 42
+savefig.facecolor: white
+savefig.transparent: False
+axes.grid: False
