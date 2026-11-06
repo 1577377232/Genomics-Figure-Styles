@@ -1,0 +1,5 @@
+06_scripts/R_library/
+**/__pycache__/
+*.pyc
+.Rhistory
+.RData

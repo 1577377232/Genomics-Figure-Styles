@@ -1,0 +1,36 @@
+donor_chr	target_chr	status	method	start	end
+W	W	drawn_main_chromosome	retained_previous_sequence_transfer	4630008	4687626
+Z	Z	drawn_main_chromosome	retained_previous_sequence_transfer	43369081	43409149
+1	1	drawn_main_chromosome	retained_previous_sequence_transfer	72627635	75139651
+2	2	drawn_main_chromosome	retained_previous_sequence_transfer	52111074	52354546
+3	3	drawn_main_chromosome	retained_previous_sequence_transfer	2492789	2713024
+4	4	drawn_main_chromosome	retained_previous_sequence_transfer	18609886	18746341
+5	5	drawn_main_chromosome	retained_previous_sequence_transfer	3234111	3334040
+6	6	drawn_main_chromosome	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	1762	66007
+7	7	drawn_main_chromosome	retained_previous_sequence_transfer	7353226	7492184
+8	8	drawn_main_chromosome	retained_previous_sequence_transfer	10709932	10826678
+9	9	drawn_main_chromosome	primary whole-query chromosome correspondence; one-sided unique flank bounds terminal candidate; supplied centromere sequence largely absent/unmapped	0	79207
+10	10	drawn_main_chromosome	retained_previous_sequence_transfer	13	251534
+11	11	drawn_main_chromosome	retained_previous_sequence_transfer	2762394	2904884
+12	12	drawn_main_chromosome	retained_previous_sequence_transfer	0	28631
+13	13	drawn_main_chromosome	retained_previous_sequence_transfer	67213	197339
+14	14	drawn_main_chromosome	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	15214542	15285807
+16	16	drawn_main_chromosome	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	6058	62454
+17	17	drawn_main_chromosome	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	728964	853451
+18	18	drawn_main_chromosome	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	90263	216188
+19	19	drawn_main_chromosome	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	19209	193268
+20	20	drawn_main_chromosome	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	295989	432053
+21	21	drawn_main_chromosome	retained_previous_sequence_transfer	6778085	6970753
+22	22	drawn_main_chromosome	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	4627900	4686398
+23	23	drawn_main_chromosome	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	21297	221297
+24	24	drawn_main_chromosome	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	6369174	6429682
+25	25	drawn_main_chromosome	primary whole-query chromosome correspondence; one-sided unique flank bounds terminal candidate; supplied centromere sequence largely absent/unmapped	0	327935
+26	26	drawn_main_chromosome	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	5300981	5348795
+28	28	drawn_main_chromosome	retained_previous_sequence_transfer	132899	419917
+29	33	drawn_main_chromosome	retained_previous_sequence_transfer	9784	157088
+30	30	drawn_main_chromosome	primary whole-query chromosome correspondence; one-sided unique flank bounds terminal candidate; supplied centromere sequence largely absent/unmapped	0	75292
+31	31	drawn_main_chromosome	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	4941	111461
+32	32	drawn_main_chromosome	nearest unique flank; donor chromosome fragmented across reference sequences; one-sided unique flank bounds terminal candidate; supplied centromere sequence largely absent/unmapped	0	26727
+34	29	drawn_main_chromosome	primary whole-query chromosome correspondence; one-sided unique flank bounds terminal candidate; supplied centromere sequence largely absent/unmapped	645224	726478
+35	37	drawn_main_chromosome	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	40530	101890
+36	JAENSK010000565.1	mapped_unplaced_not_in_main_plot	primary correspondence is unplaced; no unoccupied main-chromosome flank	144806	172381

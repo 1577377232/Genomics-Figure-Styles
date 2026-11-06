@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "all_seven_track_inputs_unchanged": true,
+  "TE_profiles_scales_colors_geometry_and_centromeres_unchanged": true,
+  "variant_axis_titles_removed": true,
+  "numeric_variant_ticks_retained": 9,
+  "gradient_cells_retained": 192,
+  "center_labels": [
+    "SNV density",
+    "SV density",
+    "TEV density"
+  ],
+  "label_changes_only": true,
+  "PNG_pixels": [
+    5880,
+    6000
+  ],
+  "PNG_dpi": 600,
+  "previous_protected_V13_and_input_hashes_unchanged": true
+}

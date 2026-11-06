@@ -1,0 +1,8 @@
+track	color	use
+LINE	#386C8C	reference TE coverage area, outline, center legend
+LTR	#7BB6AC	reference TE coverage area, outline, center legend
+SINE	#9689B9	reference TE coverage area, outline, center legend
+DNA	#B4AD74	reference TE coverage area, outline, center legend
+SNP	#5899B2	variant density ramp base, colorbar, center legend
+SV	#A1A8BE	variant density ramp base, colorbar, center legend
+TIP	#E75A46	variant density ramp base, colorbar, center legend

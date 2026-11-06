@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "entrypoint_works_from_unrelated_directory": true,
+  "inputs_relative_to_Fig1_folder": true,
+  "R_dependencies": "Existing R_library used for this validation; install helper included",
+  "validation_stdout": "",
+  "validation_stderr": "着丝粒 evidence 保留在 QC；主图全部使用同一种红色矩形。\n输入检查通过：1000000 bp，1063 个真实窗口，41 条染色体；SNP=adaptive_discovery，SV=all，TIP=extended。\n"
+}

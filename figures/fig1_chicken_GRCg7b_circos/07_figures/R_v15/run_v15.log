@@ -1,0 +1,5 @@
+着丝粒 evidence 保留在 QC；主图全部使用同一种红色矩形。
+输入检查通过：1000000 bp，1063 个真实窗口，41 条染色体；SNP=adaptive_discovery，SV=all，TIP=extended。
+已输出：/data/CWD_1/Pan_TE_chicken/02_Genome_annotation/chicken_7b_TE_circos/07_figures/R_v15/chicken_GRCg7b_R_v15_1000kb_adaptive_discovery_TIP-extended_SV-all_palette-pangenome_spectrum.svg
+已输出：/data/CWD_1/Pan_TE_chicken/02_Genome_annotation/chicken_7b_TE_circos/07_figures/R_v15/chicken_GRCg7b_R_v15_1000kb_adaptive_discovery_TIP-extended_SV-all_palette-pangenome_spectrum.pdf
+已输出：/data/CWD_1/Pan_TE_chicken/02_Genome_annotation/chicken_7b_TE_circos/07_figures/R_v15/chicken_GRCg7b_R_v15_1000kb_adaptive_discovery_TIP-extended_SV-all_palette-pangenome_spectrum.png

@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "method": "Independent BAM CIGAR and query base; no cs parsing; evenly spaced real SNP subset",
+  "checks": [
+    {
+      "sample": "Asil",
+      "chromosome": "Z",
+      "available_SNPs": 202271,
+      "deterministic_spread_subset": 251,
+      "CIGAR_ALT_matches": 251
+    },
+    {
+      "sample": "Asil",
+      "chromosome": "W",
+      "available_SNPs": 0,
+      "deterministic_spread_subset": 0,
+      "CIGAR_ALT_matches": 0
+    },
+    {
+      "sample": "GG1F",
+      "chromosome": "Z",
+      "available_SNPs": 122344,
+      "deterministic_spread_subset": 251,
+      "CIGAR_ALT_matches": 251
+    },
+    {
+      "sample": "GG1F",
+      "chromosome": "W",
+      "available_SNPs": 0,
+      "deterministic_spread_subset": 0,
+      "CIGAR_ALT_matches": 0
+    },
+    {
+      "sample": "GRCg7w",
+      "chromosome": "Z",
+      "available_SNPs": 0,
+      "deterministic_spread_subset": 0,
+      "CIGAR_ALT_matches": 0
+    },
+    {
+      "sample": "GRCg7w",
+      "chromosome": "W",
+      "available_SNPs": 0,
+      "deterministic_spread_subset": 0,
+      "CIGAR_ALT_matches": 0
+    },
+    {
+      "sample": "Silkie1",
+      "chromosome": "Z",
+      "available_SNPs": 204595,
+      "deterministic_spread_subset": 251,
+      "CIGAR_ALT_matches": 251
+    },
+    {
+      "sample": "Silkie1",
+      "chromosome": "W",
+      "available_SNPs": 0,
+      "deterministic_spread_subset": 0,
+      "CIGAR_ALT_matches": 0
+    },
+    {
+      "sample": "SLWX2",
+      "chromosome": "Z",
+      "available_SNPs": 236484,
+      "deterministic_spread_subset": 251,
+      "CIGAR_ALT_matches": 251
+    },
+    {
+      "sample": "SLWX2",
+      "chromosome": "W",
+      "available_SNPs": 4210,
+      "deterministic_spread_subset": 264,
+      "CIGAR_ALT_matches": 264
+    },
+    {
+      "sample": "Ggswu",
+      "chromosome": "Z",
+      "available_SNPs": 241335,
+      "deterministic_spread_subset": 251,
+      "CIGAR_ALT_matches": 251
+    },
+    {
+      "sample": "Ggswu",
+      "chromosome": "W",
+      "available_SNPs": 2688,
+      "deterministic_spread_subset": 269,
+      "CIGAR_ALT_matches": 269
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+width_in	height_in	circle_diameter_in	circle_diameter_canvas_fraction	opening_degrees	gap_degrees	chromosome_names	coordinate_labels	opening_center_degrees	clockwise	annotation_collisions	separate_coordinate_track	separate_chromosome_label_track	sector_track_frames	coordinate_track_frames	TE_independent_axes	centromere_rendering
+9.8	10	7.90471698113208	0.807290244881574	48	1.1	41	73	0	FALSE	0	TRUE	TRUE	TRUE	FALSE	TRUE	short red rectangle

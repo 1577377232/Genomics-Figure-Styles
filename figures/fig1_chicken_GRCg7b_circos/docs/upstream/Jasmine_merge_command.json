@@ -1,0 +1,18 @@
+{
+  "command": [
+    "bash",
+    "/data/CWD_1/Pan_TE_chicken/01_Pan_TE_Lib/Construct_Pan_TE/Assemblies_51/software/Jasmine-1.1.5/jasmine",
+    "file_list=all_sample_vcf_list.txt",
+    "--use_edit_dist",
+    "--keep_var_ids",
+    "--output_genotypes",
+    "threads=16",
+    "out_dir=tmp_jasmine_paper",
+    "out_file=raw/merged_jasmine_paper.vcf"
+  ],
+  "cwd": "/data/CWD_1/Pan_TE_chicken/01_Pan_TE_Lib/Construct_Pan_TE/Assemblies_51/2_SV_merge_comparison",
+  "start": "2026-11-03T11:09:24.200143+08:00",
+  "JAVA_TOOL_OPTIONS": "-Xmx64g",
+  "exit_code": 0,
+  "end": "2026-11-03T11:14:37.815148+08:00"
+}

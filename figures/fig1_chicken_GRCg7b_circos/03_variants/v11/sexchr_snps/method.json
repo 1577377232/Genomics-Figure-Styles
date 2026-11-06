@@ -1,0 +1,17 @@
+{
+  "reference": "/data/CWD_1/00_Ref_TERef/7b_genome.fa",
+  "reference_fai_sha256": "1eed3d2125faf312a1632534ba446223257e72fa86bb89553e49247103d2781f",
+  "original_caller": "/data/CWD_1/Pan_TE_chicken/02_Genome_annotation/15_Homologous_SNP_phylogeny/scripts/extract_assembly_snps.cpp",
+  "original_caller_sha256": "5928182b687fca0464f389816dd8880aa549d855c02b653228388556d55a50e6",
+  "modified_caller_sha256": "25ed6ca2fcf3e6e148784a45ac7d0e74f20ecaf6fe3f0259995c40ee57cc6c1d",
+  "sample_manifest": "/data/CWD_1/Pan_TE_chicken/01_Pan_TE_Lib/Construct_Pan_TE/Assemblies_51/samples_51.tsv",
+  "sample_manifest_sha256": "7137d72ec3ab6a31993b246c3323200c706038995410f8e344de3cdbbc16bda2",
+  "filters": "unchanged: competing MAPQ>=5/alignment>=10kb; eligible MAPQ>=20/alignment>=50kb/identity>=95%; unique reference coverage; 100bp end trim; indel flank5bp; ACGT; PASS; union biallelic",
+  "site_unit": "unique reference position; reference allele compared to GRCg7b; sites-only union; no joint genotypes or allele frequencies",
+  "missingness": "any callable bp required per window; otherwise NA; density denominator is physical window bp, not callable bp",
+  "sex_caveat": "Assembly discovery, not sex-balanced population genotyping. W alignments may include homologous/misassembled sequence; no sex metadata or sample AF is inferred.",
+  "outputs_sha256": {
+    "03_variants/v11/sexchr_snps/assembly51.ZW.discovery.biallelic.sites.vcf.gz": "6163f523783e0743e0551aa4bbefb512d3e89d21d740f659256dd99d95ae53d2",
+    "03_variants/v11/sexchr_snps/assembly51.ZW.callable_union.bed.gz": "ad4c574c82acc655c228d2166e9cbf051a9938508543e2cd05dc38b0e0ce4f64"
+  }
+}

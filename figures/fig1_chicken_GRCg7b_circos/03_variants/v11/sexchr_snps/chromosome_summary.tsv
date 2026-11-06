@@ -1,0 +1,3 @@
+chromosome	length_bp	assemblies_screened	assemblies_with_eligible_alignment	assemblies_with_callable_bases	callable_union_bp	unique_PASS_biallelic_SNPs	excluded_multiallelic_positions
+Z	86044486	51	51	51	84005525	955908	4925
+W	9109940	51	40	40	8696547	24000	54

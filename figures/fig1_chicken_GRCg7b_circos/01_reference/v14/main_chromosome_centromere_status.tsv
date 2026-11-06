@@ -1,0 +1,42 @@
+chrom	drawn	donor_chr	reason
+1	True	1	high_coverage_transfer
+2	True	2	high_coverage_transfer
+3	True	3	high_coverage_transfer
+4	True	4	approximate_partial_transfer
+5	True	5	high_coverage_transfer
+6	True	6	approximate_CIGAR_cluster
+7	True	7	approximate_partial_transfer
+8	True	8	approximate_partial_transfer
+9	True	9	approximate_flank_boundary
+10	True	10	approximate_partial_transfer
+11	True	11	approximate_partial_transfer
+12	True	12	approximate_partial_transfer
+13	True	13	approximate_partial_transfer
+14	True	14	approximate_CIGAR_cluster
+15	False	NA	No uniquely supported candidate from supplied donor intervals; not fabricated
+16	True	16	approximate_CIGAR_cluster
+17	True	17	approximate_CIGAR_cluster
+18	True	18	approximate_CIGAR_cluster
+19	True	19	approximate_CIGAR_cluster
+20	True	20	approximate_CIGAR_cluster
+21	True	21	approximate_partial_transfer
+22	True	22	approximate_CIGAR_cluster
+23	True	23	approximate_CIGAR_cluster
+24	True	24	approximate_CIGAR_cluster
+25	True	25	approximate_flank_boundary
+26	True	26	approximate_CIGAR_cluster
+27	False	NA	No uniquely supported candidate from supplied donor intervals; not fabricated
+28	True	28	approximate_partial_transfer
+29	True	34	approximate_flank_boundary
+30	True	30	approximate_flank_boundary
+31	True	31	approximate_CIGAR_cluster
+32	True	32	approximate_flank_boundary
+33	True	29	approximate_partial_transfer
+34	False	NA	No uniquely supported candidate from supplied donor intervals; not fabricated
+35	False	NA	No uniquely supported candidate from supplied donor intervals; not fabricated
+36	False	NA	No uniquely supported candidate from supplied donor intervals; not fabricated
+37	True	35	approximate_CIGAR_cluster
+38	False	NA	No uniquely supported candidate from supplied donor intervals; not fabricated
+39	False	NA	No uniquely supported candidate from supplied donor intervals; not fabricated
+Z	True	Z	high_coverage_transfer
+W	True	W	high_coverage_transfer

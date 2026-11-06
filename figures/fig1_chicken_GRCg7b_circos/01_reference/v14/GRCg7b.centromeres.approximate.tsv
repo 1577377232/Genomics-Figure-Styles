@@ -1,0 +1,35 @@
+chrom	start	end	donor_chr	evidence	source_coverage	strand	method	anchor_source_start	anchor_source_end	anchor_target_start	anchor_target_end
+1	72627635	75139651	1	high_coverage_transfer	0.9465542307692307	+	retained_previous_sequence_transfer	NA	NA	NA	NA
+2	52111074	52354546	2	high_coverage_transfer	0.975355	+	retained_previous_sequence_transfer	NA	NA	NA	NA
+3	2492789	2713024	3	high_coverage_transfer	0.99736	+	retained_previous_sequence_transfer	NA	NA	NA	NA
+4	18609886	18746341	4	approximate_partial_transfer	0.681535	+	retained_previous_sequence_transfer	NA	NA	NA	NA
+5	3234111	3334040	5	high_coverage_transfer	0.99909	+	retained_previous_sequence_transfer	NA	NA	NA	NA
+6	1762	66007	6	approximate_CIGAR_cluster	0.11676086956521739	+	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	461226	463463	67233	69470
+7	7353226	7492184	7	approximate_partial_transfer	0.692465	+	retained_previous_sequence_transfer	NA	NA	NA	NA
+8	10709932	10826678	8	approximate_partial_transfer	0.535835	+	retained_previous_sequence_transfer	NA	NA	NA	NA
+9	0	79207	9	approximate_flank_boundary	0	+	primary whole-query chromosome correspondence; one-sided unique flank bounds terminal candidate; supplied centromere sequence largely absent/unmapped	384150	385219	79207	80276
+10	13	251534	10	approximate_partial_transfer	0.2164017049243884	+	retained_previous_sequence_transfer	NA	NA	NA	NA
+11	2762394	2904884	11	approximate_partial_transfer	0.4743966666666667	+	retained_previous_sequence_transfer	NA	NA	NA	NA
+12	0	28631	12	approximate_partial_transfer	0.21951446398712554	+	retained_previous_sequence_transfer	NA	NA	NA	NA
+13	67213	197339	13	approximate_partial_transfer	0.1923367948911966	+	retained_previous_sequence_transfer	NA	NA	NA	NA
+14	15214542	15285807	14	approximate_CIGAR_cluster	0.07986679653565694	+	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	15496286	15499305	15210829	15213848
+16	6058	62454	16	approximate_CIGAR_cluster	0.05214140285520381	+	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	845777	847869	847826	849918
+17	728964	853451	17	approximate_CIGAR_cluster	0.10651009682736075	+	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	1160328	1185600	913776	939048
+18	90263	216188	18	approximate_CIGAR_cluster	0.15526286842078948	+	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	1100085	1101085	682671	683671
+19	19209	193268	19	approximate_CIGAR_cluster	0.19730156950112107	+	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	1409166	1411715	589048	591597
+20	295989	432053	20	approximate_CIGAR_cluster	0.09508506791790565	+	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	1401936	1419024	433990	451078
+21	6778085	6970753	21	approximate_partial_transfer	0.49778831788200445	+	retained_previous_sequence_transfer	NA	NA	NA	NA
+22	4627900	4686398	22	approximate_CIGAR_cluster	0.06934564372409584	+	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	4915845	4917180	4592846	4594181
+23	21297	221297	23	approximate_CIGAR_cluster	0.17929925390841264	+	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	1107224	1111567	372841	377184
+24	6369174	6429682	24	approximate_CIGAR_cluster	0.031970889808155635	+	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	6698400	6699845	6367573	6369018
+25	0	327935	25	approximate_flank_boundary	0	-	primary whole-query chromosome correspondence; one-sided unique flank bounds terminal candidate; supplied centromere sequence largely absent/unmapped	2956418	2957519	327935	329036
+26	5300981	5348795	26	approximate_CIGAR_cluster	0.03848415582227564	+	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	5293192	5294458	5294172	5295438
+28	132899	419917	28	approximate_partial_transfer	0.3373333333333333	+	retained_previous_sequence_transfer	NA	NA	NA	NA
+29	645224	726478	34	approximate_flank_boundary	0	+	primary whole-query chromosome correspondence; one-sided unique flank bounds terminal candidate; supplied centromere sequence largely absent/unmapped	2904147	2907178	642193	645224
+30	0	75292	30	approximate_flank_boundary	0	-	primary whole-query chromosome correspondence; one-sided unique flank bounds terminal candidate; supplied centromere sequence largely absent/unmapped	1571414	1573252	75292	77130
+31	4941	111461	31	approximate_CIGAR_cluster	0.11535418623835905	-	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	4393641	4395330	116109	117798
+32	0	26727	32	approximate_flank_boundary	0	+	nearest unique flank; donor chromosome fragmented across reference sequences; one-sided unique flank bounds terminal candidate; supplied centromere sequence largely absent/unmapped	1298708	1300102	26727	28121
+33	9784	157088	29	approximate_partial_transfer	0.18691336469820788	-	retained_previous_sequence_transfer	NA	NA	NA	NA
+37	40530	101890	35	approximate_CIGAR_cluster	0.15816161286394245	+	primary whole-query chromosome correspondence; measured centromere-homology cluster, restricted by flank when present	NA	NA	NA	NA
+Z	43369081	43409149	Z	high_coverage_transfer	0.999825	+	retained_previous_sequence_transfer	NA	NA	NA	NA
+W	4630008	4687626	W	high_coverage_transfer	0.99956	+	retained_previous_sequence_transfer	NA	NA	NA	NA

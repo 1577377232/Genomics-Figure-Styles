@@ -1,0 +1,12 @@
+{
+  "donor": "/media/danding/MyBook/Pan_TE_chicken/03_chicken_assemblies/chicken_assemblies/NCBI/GCA_024206055.2_GGswu_genomic.fna",
+  "BAM": "/data/CWD_1/Pan_TE_chicken/01_Pan_TE_Lib/Construct_Pan_TE/Assemblies_51/00_bams/Ggswu.sorted.bam",
+  "new_alignment": false,
+  "reconstructed_segments": 54,
+  "eligible_alignments": 4570,
+  "nearby_M_blocks": 37533,
+  "flank_filter": "nonsecondary MAPQ>=30; alignment>=10kb; identity>=90%; individual M blocks>=200bp; nearest flank selection requires M>=1000bp",
+  "primary_correspondence_filter": "primary nonsecondary MAPQ>=30; NM identity reported, not used to discard primary correspondence; NM includes indels",
+  "existing_centromere_core_filter": "previous exact CIGAR M projections; nonsecondary MAPQ>=30; no additional NM-identity filter",
+  "query_coordinate_handling": "reconstructed gap-split offsets, full hard clips and reverse orientation explicitly handled"
+}

@@ -1,0 +1,26 @@
+{
+  "input_intervals": 35,
+  "main_markers": 34,
+  "unresolved": [
+    {
+      "donor_chr": "36",
+      "target_chr": "JAENSK010000565.1",
+      "status": "mapped_unplaced_not_in_main_plot",
+      "method": "primary correspondence is unplaced; no unoccupied main-chromosome flank",
+      "start": 144806,
+      "end": 172381
+    }
+  ],
+  "main_chromosomes_without_marker": [
+    "15",
+    "27",
+    "34",
+    "35",
+    "36",
+    "38",
+    "39"
+  ],
+  "coordinates": "GRCg7b, BED 0-based half-open; no donor positions copied",
+  "approximate_not_CENPA_validated": true,
+  "chr25_donor_end_clipped_bp": 759
+}
