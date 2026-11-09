@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "V15_vector_contents_identical": true,
+  "all_five_embedded_schematic_contents_identical": true,
+  "original_inputs_unchanged": 51,
+  "V15_clip_paths_preserved": 325,
+  "duplicate_ids": 0,
+  "unresolved_SVG_references": 0,
+  "arrowheads": 4,
+  "stems": 0,
+  "independent_connectors": 4,
+  "schematics": 5,
+  "connectors_cross_data": false,
+  "connectors_cross_annotation_boxes": false,
+  "all_origins_upper_right": true,
+  "original_asset_text_nodes_retained": 26,
+  "images_embedded_in_SVG": 0,
+  "images_embedded_in_PDF": 0,
+  "PDF_inches": [
+    14,
+    10
+  ],
+  "PNG_pixels": [
+    8400,
+    6000
+  ],
+  "PNG_dpi": 600,
+  "preview_pixels": [
+    2100,
+    1500
+  ],
+  "genomic_data_recalculated": false,
+  "source_assets_revision": "f926a01",
+  "original_GT80_asset_unchanged": true,
+  "composition_TEV_threshold": 0.5,
+  "TEV_threshold_marker_correctly_repositioned": true,
+  "connector_intersections": 0,
+  "shared_connector_vertices": 0,
+  "minimum_connector_clearance_pt": 4.3651859622814175,
+  "connector_pairs": [
+    {
+      "track1": "LINE",
+      "track2": "LTR",
+      "minimum_clearance_pt": 4.3651859622814175
+    },
+    {
+      "track1": "LINE",
+      "track2": "SINE",
+      "minimum_clearance_pt": 33.48188386874359
+    },
+    {
+      "track1": "LINE",
+      "track2": "DNA",
+      "minimum_clearance_pt": 65.46359027718006
+    },
+    {
+      "track1": "LTR",
+      "track2": "SINE",
+      "minimum_clearance_pt": 13.525637638191435
+    },
+    {
+      "track1": "LTR",
+      "track2": "DNA",
+      "minimum_clearance_pt": 36.09745912467645
+    },
+    {
+      "track1": "SINE",
+      "track2": "DNA",
+      "minimum_clearance_pt": 13.668333505687224
+    }
+  ]
+}

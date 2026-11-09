@@ -1,0 +1,14 @@
+{
+  "original_file": "TE_mediated_SV_classification.svg",
+  "original_sha256": "c3f3057467ff1af0d91bd2dd9a80d539d93b80f06457b24eae94e8cd84713326",
+  "derived_file": "TE_mediated_SV_classification_V15_gt50.svg",
+  "derived_sha256": "aeae911919fe635bb0715c0431be45c8df1a683a9e7a0a546a9171236a4f276f",
+  "original_coverage_threshold": 0.8,
+  "composition_coverage_threshold": 0.5,
+  "threshold_marker_x": 555,
+  "SV_interval_x": 110,
+  "SV_interval_width": 890,
+  "other_shapes_and_palette_unchanged": true,
+  "genomic_data_changed": false,
+  "user_authorization": "Only composition copy changed to >50%; preserve original SVG"
+}

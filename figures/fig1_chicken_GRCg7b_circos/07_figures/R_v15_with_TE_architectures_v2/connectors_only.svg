@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='1008.00pt' height='720.00pt' viewBox='0 0 1008.00 720.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: none;'/>
+<defs>
+  <clipPath id='cpMC4wMHwxMDA4LjAwfDAuMDB8NzIwLjAw'>
+    <rect x='0.00' y='0.00' width='1008.00' height='720.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHwxMDA4LjAwfDAuMDB8NzIwLjAw)'>
+<polyline points='554.03,272.69 572.03,272.69 705.60,109.52 722.10,109.52 ' style='stroke-width: 0.94; stroke: #253246; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='715.57,112.57 722.10,109.52 715.57,106.48 ' style='stroke-width: 0.94; stroke: #253246; stroke-linecap: butt; stroke-linejoin: miter; fill: #253246;' />
+<polyline points='523.57,286.52 552.37,286.52 694.80,221.12 737.34,221.12 ' style='stroke-width: 0.94; stroke: #253246; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='730.81,224.17 737.34,221.12 730.81,218.08 ' style='stroke-width: 0.94; stroke: #253246; stroke-linecap: butt; stroke-linejoin: miter; fill: #253246;' />
+<polyline points='501.68,298.12 513.20,298.12 673.20,332.72 743.12,332.72 ' style='stroke-width: 0.94; stroke: #253246; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='736.60,335.77 743.12,332.72 736.60,329.68 ' style='stroke-width: 0.94; stroke: #253246; stroke-linecap: butt; stroke-linejoin: miter; fill: #253246;' />
+<polyline points='478.60,306.52 490.12,306.52 673.20,444.32 739.27,444.32 ' style='stroke-width: 0.94; stroke: #253246; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='732.74,447.37 739.27,444.32 732.74,441.28 ' style='stroke-width: 0.94; stroke: #253246; stroke-linecap: butt; stroke-linejoin: miter; fill: #253246;' />
+<text x='862.20' y='524.03' text-anchor='middle' style='font-size: 11.50px; font-weight: bold;fill: #E75A46; font-family: "DejaVu Serif";' textLength='26.24px' lengthAdjust='spacingAndGlyphs'>TEV</text>
+</g>
+</svg>

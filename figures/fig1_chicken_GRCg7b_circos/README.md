@@ -4,6 +4,21 @@ This is the **Circos component of Fig1**, using real GRCg7b data and the reposit
 
 ![Fig1 Circos preview](07_figures/R_v15/chicken_GRCg7b_R_v15_1000kb_adaptive_discovery_TIP-extended_SV-all_palette-pangenome_spectrum.preview.png)
 
+## Latest final composition (v2): five schematics, upper-track connectors
+
+The latest assembly uses the replacement LINE/LTR/SINE/DNA SVGs and a fifth **TEV classification** schematic. Four independent three-segment arrows originate near the corresponding **upper-right** tracks; no shared stem, intersections or merged vertices. The original V15 and prior composition files remain unchanged.
+
+```bash
+bash 06_scripts/install_composition_R_dependencies.sh  # only if needed
+bash 06_scripts/run_compose_v15_with_te_architectures_v2.sh
+```
+
+[Full v2 R script](06_scripts/compose_v15_with_te_architectures_v2.R) · [v2 README and QC](07_figures/R_v15_with_TE_architectures_v2/README.md)
+
+The user-approved composition-only TEV copy shows **>50%** coverage, aligned to the existing V15 cutoff; its threshold marker is also moved to 50%. The original >80% SVG remains unchanged. This is a schematic, not a reclassification of the V15 data. TEV is not treated as a fifth TE architecture class and has no additional external connector.
+
+![Latest Figure 1 assembly v2](07_figures/R_v15_with_TE_architectures_v2/chicken_GRCg7b_R_v15_with_TE_architectures_v2.preview.png)
+
 ## Run
 
 From this folder:

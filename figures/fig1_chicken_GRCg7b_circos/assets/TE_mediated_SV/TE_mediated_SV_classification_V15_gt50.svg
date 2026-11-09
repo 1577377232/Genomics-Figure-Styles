@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="250" viewBox="0 0 1400 250" role="img" aria-labelledby="title desc">
+  <title id="title">SV with greater than 50 percent TE coverage is classified as TEV</title>
+  <desc id="desc">A single SV interval bar. More than 50 percent is TE-covered, shown in coral, and the remaining sequence is neutral grey. An arrow points to the TEV classification. Composition-only threshold variant aligned to the unchanged V15 overlap cutoff; original greater-than-80-percent asset is preserved.</desc>
+  <rect width="1400" height="250" fill="#FFFFFF"/>
+  <g id="sv-bracket" fill="none" stroke="#253246" stroke-width="2.5" stroke-linecap="round">
+    <path d="M110 76 V88 M110 76 H1000 M1000 76 V88"/>
+  </g>
+  <text x="555" y="61" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="25" font-weight="700" letter-spacing="1.2" fill="#253246">SV</text>
+  <g id="sv-sequence">
+    <rect x="110" y="100" width="890" height="76" rx="12" fill="#FBE5E1"
+          stroke="#253246" stroke-width="2.5"/>
+    <path d="M840 101 V175" stroke="#FFFFFF" stroke-width="3"/>
+    <path d="M840 101 H988 Q999 101 999 112 V164 Q999 175 988 175 H840 Z"
+          fill="#EEF1F4" stroke="none"/>
+    <g id="te-repeat-marks" stroke="#E85B4A" stroke-width="3" stroke-linecap="round" opacity="0.52">
+      <path d="M170 116 V160 M250 116 V160 M330 116 V160 M410 116 V160 M490 116 V160 M570 116 V160 M650 116 V160 M730 116 V160"/>
+    </g>
+    <text x="475" y="145" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+          font-size="30" font-weight="700" fill="#253246">TE</text>
+  </g>
+  <g id="threshold">
+    <path d="M555 88 V190" stroke="#E85B4A" stroke-width="2.5" stroke-dasharray="5 5"/>
+    <text x="555" y="211" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+          font-size="20" font-weight="700" fill="#E85B4A">&gt;50%</text>
+  </g>
+  <g id="classification-arrow" fill="none" stroke="#253246" stroke-width="2.8"
+     stroke-linecap="round" stroke-linejoin="round">
+    <path d="M1020 138 H1100"/>
+    <path d="M1087 127 L1100 138 L1087 149"/>
+  </g>
+  <g id="tev-output">
+    <rect x="1125" y="100" width="190" height="76" rx="12"
+          fill="#E85B4A" stroke="#E85B4A" stroke-width="2"/>
+    <text x="1220" y="146" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+          font-size="38" font-weight="700" letter-spacing="1" fill="#FFFFFF">TEV</text>
+  </g>
+</svg>

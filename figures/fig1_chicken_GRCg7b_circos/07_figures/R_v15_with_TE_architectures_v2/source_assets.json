@@ -1,0 +1,46 @@
+{
+  "repository": "https://github.com/1577377232/Genomics-Figure-Styles",
+  "base_commit": "f926a0178c1e4ea8f35108db6522b2b9867a41a4",
+  "files": [
+    {
+      "path": "assets/TE_architectures/LINE_CR1.svg",
+      "bytes": 2678,
+      "sha256": "c56ce94195132e0dee9ecc3a5fdb74a48a4fe9280f0461994b1686782aebf091"
+    },
+    {
+      "path": "assets/TE_architectures/LTR_ERV.svg",
+      "bytes": 2662,
+      "sha256": "696d1e2e0e503ad741962e11ba8196ffb956ed1a0e99891fddad944fed7c1f58"
+    },
+    {
+      "path": "assets/TE_architectures/SINE_generic.svg",
+      "bytes": 2385,
+      "sha256": "f6635a81e45f6f17cbbf56e1310a69495aff40f8c336b47b515cbd6bbafb234b"
+    },
+    {
+      "path": "assets/TE_architectures/DNA_TIR.svg",
+      "bytes": 1915,
+      "sha256": "fbfd7881eea068ddf362bb31cb5d6767374ebfb5d6d43c361c923b361355b80b"
+    },
+    {
+      "path": "assets/TE_architectures/TE_architectures_4up.svg",
+      "bytes": 8350,
+      "sha256": "6d8f69d15221d2aa58a182bfb28ea1ef49ce8f38c44b1e54593f8703fd729e3c"
+    },
+    {
+      "path": "assets/TE_architectures/README.md",
+      "bytes": 2002,
+      "sha256": "8887209ae3f5758145878d6ca7995ab43c0dcd26aab981613947763b852963ba"
+    },
+    {
+      "path": "assets/TE_mediated_SV/TE_mediated_SV_classification.svg",
+      "bytes": 2390,
+      "sha256": "c3f3057467ff1af0d91bd2dd9a80d539d93b80f06457b24eae94e8cd84713326"
+    },
+    {
+      "path": "assets/TE_mediated_SV/TE_mediated_SV_classification_V15_gt50.svg",
+      "bytes": 2523,
+      "sha256": "aeae911919fe635bb0715c0431be45c8df1a683a9e7a0a546a9171236a4f276f"
+    }
+  ]
+}
