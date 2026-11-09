@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="250" viewBox="0 0 1400 250" role="img" aria-labelledby="tev-title tev-desc">
+  <title id="tev-title">TEV classification schematic: greater than 80 percent TE coverage of an SV</title>
+  <desc id="tev-desc">User-requested illustrative greater-than-80-percent rule, not the greater-than-50-percent filter used by the unchanged V15 data. The SV interval spans x=110 to x=1290; its 80-percent position is x=1054. The representative TE portion has length1008, exceeding 80 percent. Not sequence to scale or evidence of a causal mechanism.</desc>
+  <rect width="1400" height="250" fill="#FFFFFF"/>
+  <text id="tev-heading" x="700" y="63" text-anchor="middle" dominant-baseline="middle"
+    font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700"
+    letter-spacing="0.5" fill="#E75A46">TEV</text>
+  <g id="sv-bracket" fill="none" stroke="#A1A8BE" stroke-width="3" stroke-linecap="round">
+    <path d="M110 117 V110 H1290 V117"/>
+  </g>
+  <text id="sv-label" x="700" y="101" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+    font-size="30" font-weight="600" fill="#253246">SV</text>
+  <defs><clipPath id="sv-rounded-clip"><rect x="110" y="126" width="1180" height="82" rx="15"/></clipPath></defs>
+  <g id="sv-interval" clip-path="url(#sv-rounded-clip)">
+    <rect x="110" y="126" width="1180" height="82" fill="#EEF0F4"/>
+    <rect id="te-covered-region" x="110" y="126" width="1008" height="82" fill="#F8DBD5"/>
+  </g>
+  <rect id="sv-outline" x="110" y="126" width="1180" height="82" rx="15" fill="none" stroke="#E75A46" stroke-width="5"/>
+  <text id="te-label" x="614" y="168" text-anchor="middle" dominant-baseline="middle"
+    font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="600" fill="#253246">TE</text>
+  <g id="threshold" stroke="#E75A46" stroke-width="3" fill="none">
+    <path id="threshold-line" d="M1054 130 V204" stroke-dasharray="5 5"/>
+  </g>
+  <text id="threshold-label" x="1054" y="235" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+    font-size="29" font-weight="700" fill="#E75A46">&gt;80%</text>
+</svg>

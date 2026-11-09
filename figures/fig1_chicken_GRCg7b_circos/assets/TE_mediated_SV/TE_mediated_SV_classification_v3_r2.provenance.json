@@ -1,0 +1,21 @@
+{
+  "source": "TE_mediated_SV_classification.svg",
+  "source_revision": "3caf871",
+  "source_sha256": "199943428ff11e31aff2aa8b45c5be92a25bfdc6f007602e6085218738b06461",
+  "derivative": "TE_mediated_SV_classification_v3_r2.svg",
+  "derivative_sha256": "287a0d9d104761763682c109920a002bf40c1694b285a12f2ce4f0ad72c25be7",
+  "changes": [
+    "Remove internal arrow",
+    "Remove independent TEV result box and its label",
+    "Recenter remaining SV bar at 110..1290",
+    "Place 80% marker at 1054",
+    "Keep visible title, SV, TE and >80% only"
+  ],
+  "canvas": [
+    1400,
+    250
+  ],
+  "schematic_threshold": 0.8,
+  "V15_data_threshold_unchanged": 0.5,
+  "old_assets_preserved": true
+}

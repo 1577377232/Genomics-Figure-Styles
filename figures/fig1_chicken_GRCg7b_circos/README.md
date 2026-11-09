@@ -4,7 +4,21 @@ This is the **Circos component of Fig1**, using real GRCg7b data and the reposit
 
 ![Fig1 Circos preview](07_figures/R_v15/chicken_GRCg7b_R_v15_1000kb_adaptive_discovery_TIP-extended_SV-all_palette-pangenome_spectrum.preview.png)
 
-## Latest Figure 1 composition (v3): five independent rounded connectors
+## Latest V3 revision 2: enlarged modules and true upper-track origins
+
+[Complete R compositor](06_scripts/compose_v15_with_te_architectures_v3_r2.R) · [Run/QC](07_figures/R_v15_with_TE_architectures_v3_r2/README.md) · [DEBUG origin zoom](07_figures/R_v15_with_TE_architectures_v3_r2/chicken_GRCg7b_R_v15_with_TE_architectures_v3_r2.DEBUG.anchor_zoom.png)
+
+```bash
+bash 06_scripts/run_compose_v15_with_te_architectures_v3_r2.sh
+```
+
+Five modules are uniformly1.25× larger on a17×10in page; the original left Circos size/position stays identical. Five independent smooth connectors start at actual upper Chr1 boundaries of tracks4/5/6/7/10. TEV starts on the innermost coral TIP/TEV track at24°, verified against the original SVG polygon. The TEV copy removes its internal arrow/result box. V15, V2, previous V3 and all original assets remain unchanged. DEBUG markers1–5 identify the exact sources.
+
+The illustration retains the requested >80% threshold; unchanged V15 data retain >50% and >50bp. No genomic statistics were recalculated.
+
+![Latest V3 revision2 preview](07_figures/R_v15_with_TE_architectures_v3_r2/chicken_GRCg7b_R_v15_with_TE_architectures_v3_r2.preview.png)
+
+## Previous V3: five independent rounded connectors
 
 [Run and QC](07_figures/R_v15_with_TE_architectures_v3/README.md) · [V3 R script](06_scripts/compose_v15_with_te_architectures_v3.R)
 

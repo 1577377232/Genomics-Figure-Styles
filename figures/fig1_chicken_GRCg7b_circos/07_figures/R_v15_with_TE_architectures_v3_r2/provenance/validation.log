@@ -1,0 +1,143 @@
+{
+  "status": "PASS",
+  "revision": "V3 revision 2",
+  "V15_vector_contents_identical": true,
+  "V15_placement_and_scale_identical": true,
+  "V15_clip_paths_preserved": 325,
+  "protected_old_files_unchanged": 109,
+  "V2_and_previous_V3_unchanged": true,
+  "four_original_TE_SVGs_unchanged": true,
+  "module_uniform_scale_factor": 1.25,
+  "module_width_in": 4.9375,
+  "module_title_font_source_px": 58,
+  "module_title_final_pt": 14.727857142857143,
+  "module_center_spacing_in": 1.45,
+  "TEV_internal_arrow_removed": true,
+  "TEV_result_box_removed": true,
+  "TEV_visible_texts": [
+    "TEV",
+    "SV",
+    "TE",
+    ">80%"
+  ],
+  "TEV_threshold_marker_x": 1054,
+  "independent_connectors": 5,
+  "closed_arrowheads": 5,
+  "shared_stems": 0,
+  "connector_intersections": 0,
+  "actual_cubic_paths_audited": true,
+  "connectors_cross_data": false,
+  "connectors_cover_annotations": false,
+  "all_origins_exact_upper_Chr1_endpoints": true,
+  "source_track_indices": [
+    4,
+    5,
+    6,
+    7,
+    10
+  ],
+  "TEV_source_track": "TIP / TEV density",
+  "TEV_anchor_radius": 0.333000000000001,
+  "TEV_anchor_degrees": 24,
+  "TEV_source_chromosome": "1",
+  "TEV_source_position_bp": 0,
+  "TEV_origin_verified_against_original_coral_polygon": {
+    "source_element_index": 5342,
+    "coral_rgb_percent": [
+      69.411765,
+      26.666667,
+      20.784314
+    ],
+    "anchor_boundary_distance_source_pt": 0.00027172154562352433,
+    "witness_source_point": [
+      427.2060144162861,
+      317.78139390300555
+    ]
+  },
+  "debug_markers_verified": true,
+  "minimum_curve_clearance_lower_bound_pt": 8.242379215562007,
+  "connector_pairs": [
+    {
+      "track1": "LINE",
+      "track2": "LTR",
+      "sampled_clearance_pt": 10.370337960224441,
+      "conservative_clearance_lower_bound_pt": 10.210337960224441
+    },
+    {
+      "track1": "LINE",
+      "track2": "SINE",
+      "sampled_clearance_pt": 22.40341239869004,
+      "conservative_clearance_lower_bound_pt": 22.24341239869004
+    },
+    {
+      "track1": "LINE",
+      "track2": "DNA",
+      "sampled_clearance_pt": 30.805791592825294,
+      "conservative_clearance_lower_bound_pt": 30.645791592825294
+    },
+    {
+      "track1": "LINE",
+      "track2": "TEV",
+      "sampled_clearance_pt": 83.81630449048181,
+      "conservative_clearance_lower_bound_pt": 83.65630449048182
+    },
+    {
+      "track1": "LTR",
+      "track2": "SINE",
+      "sampled_clearance_pt": 11.739394587103344,
+      "conservative_clearance_lower_bound_pt": 11.579394587103344
+    },
+    {
+      "track1": "LTR",
+      "track2": "DNA",
+      "sampled_clearance_pt": 20.141773846480532,
+      "conservative_clearance_lower_bound_pt": 19.981773846480532
+    },
+    {
+      "track1": "LTR",
+      "track2": "TEV",
+      "sampled_clearance_pt": 73.15228735597418,
+      "conservative_clearance_lower_bound_pt": 72.99228735597418
+    },
+    {
+      "track1": "SINE",
+      "track2": "DNA",
+      "sampled_clearance_pt": 8.402379215562007,
+      "conservative_clearance_lower_bound_pt": 8.242379215562007
+    },
+    {
+      "track1": "SINE",
+      "track2": "TEV",
+      "sampled_clearance_pt": 61.41289263188989,
+      "conservative_clearance_lower_bound_pt": 61.25289263188989
+    },
+    {
+      "track1": "DNA",
+      "track2": "TEV",
+      "sampled_clearance_pt": 47.72587770303034,
+      "conservative_clearance_lower_bound_pt": 47.565877703030345
+    }
+  ],
+  "schematic_TE_threshold": 0.8,
+  "V15_data_TE_threshold_unchanged": 0.5,
+  "genomic_data_recomputed": false,
+  "SVG_embedded_rasters": 0,
+  "PDF_embedded_rasters": 0,
+  "PDF_inches": [
+    17,
+    10
+  ],
+  "PNG_pixels": [
+    10200,
+    6000
+  ],
+  "PNG_dpi": 600,
+  "preview_pixels": [
+    2550,
+    1500
+  ],
+  "DEBUG_zoom_pixels": [
+    2130,
+    1380
+  ]
+}
