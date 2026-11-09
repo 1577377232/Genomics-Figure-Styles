@@ -1,5 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="210" viewBox="0 0 1000 210" role="img" aria-label="Representative LTR transposable element architecture"><title>LTR representative transposable-element architecture</title><desc>Original editable diagram for chicken GRCg7b Figure 1. Representative, not sequence to scale. SVG groups contain editable rectangles and text.</desc>
-<g id="ltr-title"><text id="" x="30" y="39" fill="#7BB6AC" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-weight="650" font-size="41" text-anchor="start" dominant-baseline="middle">LTR</text></g>
-<g id="ltr-blocks"><rect id="ltr-segment-1" x="30" y="98" width="162" height="52" rx="9" fill="#BAD9D4" stroke="none" stroke-width="0"/><rect id="ltr-segment-2" x="194" y="88" width="188" height="72" rx="2" fill="#BAD9D4" stroke="none" stroke-width="0"/><rect id="ltr-segment-3" x="384" y="88" width="195" height="72" rx="2" fill="#BAD9D4" stroke="none" stroke-width="0"/><rect id="ltr-segment-4" x="581" y="88" width="182" height="72" rx="2" fill="#E5F0EE" stroke="#7BB6AC" stroke-width="2"/><rect x="582" y="89" width="180" height="70" rx="3" fill="none" stroke="#7BB6AC" stroke-dasharray="9 7" stroke-width="1.5"/><rect id="ltr-segment-5" x="765" y="98" width="162" height="52" rx="9" fill="#BAD9D4" stroke="none" stroke-width="0"/></g>
-<g id="ltr-text"><text id="ltr-label-1" x="111" y="125" fill="#253246" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-weight="500" font-size="27" text-anchor="middle" dominant-baseline="middle">LTR</text><text id="ltr-label-2" x="288" y="125" fill="#253246" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-weight="500" font-size="27" text-anchor="middle" dominant-baseline="middle">Gag</text><text id="ltr-label-3" x="481.5" y="125" fill="#253246" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-weight="500" font-size="27" text-anchor="middle" dominant-baseline="middle">Pol</text><text id="ltr-label-4" x="672" y="125" fill="#253246" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-weight="500" font-size="27" text-anchor="middle" dominant-baseline="middle">Env*</text><text id="ltr-label-5" x="846" y="125" fill="#253246" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-weight="500" font-size="27" text-anchor="middle" dominant-baseline="middle">LTR</text><text id="ltr-note" x="30" y="187" fill="#697887" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-weight="400" font-size="16" text-anchor="start" dominant-baseline="middle">* Env is optional and lineage-dependent</text></g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="250" viewBox="0 0 1400 250" role="img" aria-labelledby="ltr-erv-svg-title ltr-erv-svg-desc">
+  <title id="ltr-erv-svg-title">LTR transposable element architecture</title>
+  <desc id="ltr-erv-svg-desc">Editable schematic architecture for a representative chicken LTR element. Modules are not drawn to sequence scale.</desc>
+  <rect width="1400" height="250" fill="#FFFFFF"/>
+  
+  <g id="ltr-erv-title">
+    <text x="700" y="63" text-anchor="middle" dominant-baseline="middle"
+      font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700"
+      letter-spacing="0.5" fill="#7BB6AC">LTR</text>
+  </g>
+  <g id="ltr-erv-modules" stroke-linecap="round"><rect id="ltr-erv-module-1" x="138.5" y="134.0" width="180" height="66" rx="15" ry="15" fill="#E7F2F0" stroke="#7BB6AC" stroke-width="5" stroke-linejoin="round"/>
+<rect id="ltr-erv-module-2" x="325.5" y="126.0" width="245" height="82" rx="15" ry="15" fill="#E7F2F0" stroke="#7BB6AC" stroke-width="5" stroke-linejoin="round"/>
+<rect id="ltr-erv-module-3" x="577.5" y="126.0" width="245" height="82" rx="15" ry="15" fill="#E7F2F0" stroke="#7BB6AC" stroke-width="5" stroke-linejoin="round"/>
+<rect id="ltr-erv-module-4" x="829.5" y="126.0" width="245" height="82" rx="15" ry="15" fill="#F3F8F8" stroke="#7BB6AC" stroke-width="5" stroke-dasharray="10 7" stroke-linejoin="round"/>
+<rect id="ltr-erv-module-5" x="1081.5" y="134.0" width="180" height="66" rx="15" ry="15" fill="#E7F2F0" stroke="#7BB6AC" stroke-width="5" stroke-linejoin="round"/></g>
+  <g id="ltr-erv-labels"><text id="ltr-erv-label-1" x="228.5" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="600" fill="#253246">LTR</text>
+<text id="ltr-erv-label-2" x="448.0" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="600" fill="#253246">Gag</text>
+<text id="ltr-erv-label-3" x="700.0" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="600" fill="#253246">Pol</text>
+<text id="ltr-erv-label-4" x="952.0" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="600" fill="#253246">Env*</text>
+<text id="ltr-erv-label-5" x="1171.5" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="600" fill="#253246">LTR</text></g>
 </svg>
