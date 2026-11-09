@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "run_from": "/tmp",
+  "asset_only_project": true,
+  "raw_genomic_data_required": false,
+  "V15_main_script_executed": false,
+  "reused_installed_R_dependencies": true,
+  "SVG_byte_identical": true
+}

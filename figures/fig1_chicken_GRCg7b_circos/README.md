@@ -4,7 +4,19 @@ This is the **Circos component of Fig1**, using real GRCg7b data and the reposit
 
 ![Fig1 Circos preview](07_figures/R_v15/chicken_GRCg7b_R_v15_1000kb_adaptive_discovery_TIP-extended_SV-all_palette-pangenome_spectrum.preview.png)
 
-## Latest final composition (v2): five schematics, upper-track connectors
+## Latest Figure 1 composition (v3): five independent rounded connectors
+
+[Run and QC](07_figures/R_v15_with_TE_architectures_v3/README.md) · [V3 R script](06_scripts/compose_v15_with_te_architectures_v3.R)
+
+```bash
+bash 06_scripts/run_compose_v15_with_te_architectures_v3.sh
+```
+
+Five modules shift down by 0.60 inches at equal spacing. Four connectors originate near the upper TE tracks; the fifth links the innermost TEV track at the lower opening. All are independent rounded vector paths. V15, V2 and the four TE architecture source SVGs remain unchanged. **The requested TEV schematic shows >80%; V15 density retains >50% and >50 bp. This threshold difference is documented; no genomic data were recalculated.**
+
+![Figure 1 composition v3](07_figures/R_v15_with_TE_architectures_v3/chicken_GRCg7b_R_v15_with_TE_architectures_v3.preview.png)
+
+## Previous composition (v2): five schematics, upper-track connectors
 
 The latest assembly uses the replacement LINE/LTR/SINE/DNA SVGs and a fifth **TEV classification** schematic. Four independent three-segment arrows originate near the corresponding **upper-right** tracks; no shared stem, intersections or merged vertices. The original V15 and prior composition files remain unchanged.
 
