@@ -4,7 +4,21 @@ This is the **Circos component of Fig1**, using real GRCg7b data and the reposit
 
 ![Fig1 Circos preview](07_figures/R_v15/chicken_GRCg7b_R_v15_1000kb_adaptive_discovery_TIP-extended_SV-all_palette-pangenome_spectrum.preview.png)
 
-## Latest V3 revision 2: enlarged modules and true upper-track origins
+## Latest V3_R3: compact enlarged column and five straight polylines
+
+[Complete R script](06_scripts/compose_v15_with_te_architectures_v3_r3.R) · [Run/QC](07_figures/R_v15_with_TE_architectures_v3_r3/README.md) · [DEBUG origin/gap zoom](07_figures/R_v15_with_TE_architectures_v3_r3/chicken_GRCg7b_R_v15_with_TE_architectures_v3_r3.DEBUG.anchor_zoom.png)
+
+```bash
+bash 06_scripts/run_compose_v15_with_te_architectures_v3_r3.sh
+```
+
+The five new title-compensated GitHub SVGs are placed at width7.40625in (1.5×R2). Following the final layout request, the column sits0.70in beyond the true Circos bound, with0.08in SVG-to-SVG vertical gaps; its6.93in total height is shorter than the7.65in Circos envelope and vertically centered. All five connectors contain M/L only. User-confirmed0.14in end-face-normal gaps separate each line from the actual upper Chr1 track endpoint; arrows stop0.09in before visible module borders. V15, R2, prior versions and every source SVG remain unchanged.
+
+The TEV schematic retains >80%; original V15 data retain >50% and >50bp. No genomic statistics were recalculated.
+
+![V3_R3 compact preview](07_figures/R_v15_with_TE_architectures_v3_r3/chicken_GRCg7b_R_v15_with_TE_architectures_v3_r3.preview.png)
+
+## Previous V3 revision 2: enlarged modules and true upper-track origins
 
 [Complete R compositor](06_scripts/compose_v15_with_te_architectures_v3_r2.R) · [Run/QC](07_figures/R_v15_with_TE_architectures_v3_r2/README.md) · [DEBUG origin zoom](07_figures/R_v15_with_TE_architectures_v3_r2/chicken_GRCg7b_R_v15_with_TE_architectures_v3_r2.DEBUG.anchor_zoom.png)
 

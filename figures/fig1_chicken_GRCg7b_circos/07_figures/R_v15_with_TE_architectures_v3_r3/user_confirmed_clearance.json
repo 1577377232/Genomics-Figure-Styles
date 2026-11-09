@@ -1,0 +1,9 @@
+{
+  "question": "Use endpoint outward normal into the gap rather than center-based radial displacement?",
+  "answer": "按端面法向进入缺口 0.14 in（推荐）",
+  "length_in": 0.14,
+  "direction": "endpoint outward normal into opening",
+  "latest_layout_steering": "Move structure column farther right; greatly reduce vertical gaps; total column shorter than Circos",
+  "final_module_gap_in": 0.7,
+  "final_canvas_vertical_gap_in": 0.08
+}

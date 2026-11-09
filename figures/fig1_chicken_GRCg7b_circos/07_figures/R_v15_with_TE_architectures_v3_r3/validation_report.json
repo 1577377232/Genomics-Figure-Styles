@@ -1,0 +1,147 @@
+{
+  "status": "PASS",
+  "version": "V3_R3 compact column",
+  "source_asset_revision": "06e8112",
+  "new_five_SVG_assets_used": [
+    "TE_architectures/LINE_CR1_composition_1_5x.svg",
+    "TE_architectures/LTR_ERV_composition_1_5x.svg",
+    "TE_architectures/SINE_generic_composition_1_5x.svg",
+    "TE_architectures/DNA_TIR_composition_1_5x.svg",
+    "TE_mediated_SV/TEV_classification_composition_1_5x.svg"
+  ],
+  "all_inputs_unchanged": true,
+  "protected_old_files_unchanged": 152,
+  "V15_vector_contents_identical": true,
+  "V15_scale_and_placement_identical": true,
+  "V15_clip_paths_preserved": 325,
+  "module_scale_vs_R2": 1.5,
+  "module_width_in": 7.40625,
+  "internal_text_scale_vs_R2": 1.5,
+  "heading_font_source_px": 39,
+  "heading_final_pt": 14.854821428571428,
+  "heading_visual_ratio_vs_R2": 1.0086206896551724,
+  "module_gap_from_Circos_bound_in": 0.7,
+  "module_canvas_vertical_gap_in": 0.08,
+  "column_height_in": 6.932723214285714,
+  "circos_height_in": 7.6482431779378715,
+  "column_height_ratio": 0.9064464940502746,
+  "column_vertically_centered": true,
+  "start_clearance_in": 0.14,
+  "start_clearance_direction": "endpoint outward normal into gap (user-confirmed)",
+  "arrow_tip_to_visible_module_edge_in": 0.09,
+  "independent_connectors": 5,
+  "straight_segments_each": 3,
+  "commands_each": [
+    "M",
+    "L",
+    "L",
+    "L"
+  ],
+  "Bezier_commands": 0,
+  "shared_vertices": 0,
+  "shared_segments": 0,
+  "intersections": 0,
+  "minimum_connector_clearance_pt": 9.992263240879993,
+  "connector_pairs": [
+    {
+      "track1": "LINE",
+      "track2": "LTR",
+      "minimum_clearance_pt": 9.992263240879993
+    },
+    {
+      "track1": "LINE",
+      "track2": "SINE",
+      "minimum_clearance_pt": 29.66388531091523
+    },
+    {
+      "track1": "LINE",
+      "track2": "DNA",
+      "minimum_clearance_pt": 52.87333422066274
+    },
+    {
+      "track1": "LINE",
+      "track2": "TEV",
+      "minimum_clearance_pt": 95.75280851539364
+    },
+    {
+      "track1": "LTR",
+      "track2": "SINE",
+      "minimum_clearance_pt": 14.831942655457615
+    },
+    {
+      "track1": "LTR",
+      "track2": "DNA",
+      "minimum_clearance_pt": 35.24888948043876
+    },
+    {
+      "track1": "LTR",
+      "track2": "TEV",
+      "minimum_clearance_pt": 78.55401949849896
+    },
+    {
+      "track1": "SINE",
+      "track2": "DNA",
+      "minimum_clearance_pt": 17.624444740214773
+    },
+    {
+      "track1": "SINE",
+      "track2": "TEV",
+      "minimum_clearance_pt": 50.056703790141654
+    },
+    {
+      "track1": "DNA",
+      "track2": "TEV",
+      "minimum_clearance_pt": 23.247491689181295
+    }
+  ],
+  "connectors_cover_labels": false,
+  "connectors_cross_main_data": false,
+  "connectors_cross_other_modules": false,
+  "true_sources_upper_Chr1_endpoints": true,
+  "source_track_indices": [
+    4,
+    5,
+    6,
+    7,
+    10
+  ],
+  "TEV_source": "TIP / innermost TEV density",
+  "TEV_true_anchor_radius": 0.333000000000001,
+  "TEV_true_anchor_angle_degrees": 24,
+  "TEV_original_coral_boundary_proof": {
+    "source_element_index": 5342,
+    "coral_rgb_percent": [
+      69.411765,
+      26.666667,
+      20.784314
+    ],
+    "anchor_boundary_distance_source_pt": 0.00027172154562352433,
+    "witness_source_point": [
+      427.2060144162861,
+      317.78139390300555
+    ]
+  },
+  "DEBUG_true_anchor_and_start_verified": true,
+  "TEV_internal_arrow_absent": true,
+  "TEV_result_box_absent": true,
+  "schematic_threshold": 0.8,
+  "V15_data_threshold_unchanged": 0.5,
+  "genomic_statistics_recalculated": false,
+  "SVG_embedded_rasters": 0,
+  "PDF_embedded_rasters": 0,
+  "PDF_inches": [
+    16.555555555555557,
+    10.0
+  ],
+  "PDF_right_padding_pt": 0.661583026151675,
+  "PDF_content_scale": 1,
+  "PNG_pixels": [
+    9928,
+    6000
+  ],
+  "PNG_dpi": 600,
+  "preview_pixels": [
+    2482,
+    1500
+  ]
+}

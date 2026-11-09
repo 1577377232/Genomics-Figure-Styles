@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "run_from": "/tmp",
+  "raw_genomic_data_required": false,
+  "V15_plot_code_executed": false,
+  "asset_only_project": true,
+  "installed_R_dependencies_reused": true,
+  "SVG_byte_identical": true,
+  "DEBUG_SVG_byte_identical": true,
+  "zoom_SVG_byte_identical": true
+}

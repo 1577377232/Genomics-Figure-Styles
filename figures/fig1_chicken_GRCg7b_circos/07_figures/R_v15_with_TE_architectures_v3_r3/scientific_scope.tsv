@@ -1,0 +1,3 @@
+component	TE_coverage_cutoff	event_length_cutoff	status
+V15_TEV_density	>50%	>50 bp	Original extended statistics unchanged
+right_TEV_schematic	>80%	not encoded	User-supplied schematic; not the V15 filter
