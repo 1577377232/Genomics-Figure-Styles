@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="250" viewBox="0 0 1400 250" role="img" aria-labelledby="te-mediated-sv-title te-mediated-sv-desc">
-  <title id="te-mediated-sv-title">TE-mediated structural variation</title>
-  <desc id="te-mediated-sv-desc">A single proportional schematic of an SV interval in which more than 80 percent of the sequence is overlapped by TE annotations and less than 20 percent is non-TE sequence. The drawing is illustrative and does not represent genomic order.</desc>
+  <title id="te-mediated-sv-title">TE-mediated SV</title>
+  <desc id="te-mediated-sv-desc">A concise schematic of an SV interval with more than 80 percent TE-overlapped sequence and a small remaining non-TE segment. Segment proportions are illustrative.</desc>
   <rect width="1400" height="250" fill="#FFFFFF"/>
-  <g id="te-mediated-sv-heading">
+  <g id="te-mediated-sv-title-group">
     <text x="700" y="63" text-anchor="middle" dominant-baseline="middle"
       font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700"
       letter-spacing="0.5" fill="#E85B4A">TE-mediated SV</text>
   </g>
-  <g id="te-mediated-sv-interval" stroke-linecap="round">
-    <rect id="te-overlapped-region" x="112" y="126" width="968" height="82" rx="15" ry="15"
-      fill="#FBE5E1" stroke="#E85B4A" stroke-width="5" stroke-linejoin="round"/>
-    <rect id="non-te-region" x="1088" y="126" width="200" height="82" rx="15" ry="15"
-      fill="#EEF1F4" stroke="#AAB3BD" stroke-width="5" stroke-linejoin="round"/>
+  <g id="te-mediated-sv-bar" stroke-linecap="round">
+    <rect id="te-covered-greater-than-80-percent" x="112" y="126" width="986" height="82"
+      rx="15" ry="15" fill="#FBE5E1" stroke="#E85B4A" stroke-width="5" stroke-linejoin="round"/>
+    <rect id="remaining-non-te-sequence" x="1098" y="126" width="190" height="82"
+      rx="15" ry="15" fill="#EEF1F4" stroke="#A1A8BE" stroke-width="5" stroke-linejoin="round"/>
   </g>
   <g id="te-mediated-sv-labels">
-    <text x="596" y="168" text-anchor="middle" dominant-baseline="middle"
-      font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="600"
-      fill="#253246">TE-overlapped sequence (&gt;80%)</text>
-    <text x="1188" y="168" text-anchor="middle" dominant-baseline="middle"
+    <text x="605" y="168" text-anchor="middle" dominant-baseline="middle"
+      font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="600"
+      fill="#253246">TE (&gt;80%)</text>
+    <text x="1193" y="168" text-anchor="middle" dominant-baseline="middle"
       font-family="Georgia, 'Times New Roman', serif" font-size="27" font-weight="600"
-      fill="#697887">Other</text>
+      fill="#253246">Other</text>
   </g>
 </svg>

@@ -1,10 +1,9 @@
 # TE-mediated SV schematic
 
-A compact, single-row schematic designed to sit alongside the four TE architecture diagrams.
+A compact, single-row SVG module designed to sit alongside the LINE, LTR, SINE and DNA architecture schematics.
 
-- **Operational criterion:** TE coverage of an SV interval must be strictly **greater than 80%**.
-- **TE coverage:** unique bases in the SV interval overlapped by one or more TE annotations, divided by SV length.
-- Overlapping TE annotations are counted once (interval union).
-- The bar is a proportional concept diagram, not a genomic-coordinate map; the segment order is not biologically meaningful.
+**Operational rule:** classify an SV as TE-mediated when **more than 80%** of its interval is covered by TE sequence. The small neutral segment represents the remaining non-TE sequence. The displayed segment proportions are illustrative, not a claim that every qualifying SV has exactly 84% TE coverage.
 
-The label is an operational overlap-based classification. TE overlap alone does not prove the molecular mechanism that generated the SV.
+For calculations, use the union of TE-annotated bases within the SV interval so overlapping TE annotations are not double-counted. This is an overlap-based operational classification; overlap alone does not prove the molecular mechanism of SV formation.
+
+Style follows the repository's Pangenome Spectrum figure system: coral accent `#E85B4A`, neutral slate `#A1A8BE`, dark text `#253246`, rounded modules and serif labels. Canvas size is 1400 × 250 to match the four TE architecture SVGs.
