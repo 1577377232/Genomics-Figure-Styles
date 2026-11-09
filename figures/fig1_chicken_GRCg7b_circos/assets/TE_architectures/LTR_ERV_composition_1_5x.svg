@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="250" viewBox="0 0 1400 250" role="img" aria-labelledby="ltr-erv-svg-title ltr-erv-svg-desc">
+  <title id="ltr-erv-svg-title">LTR transposable element architecture</title>
+  <desc id="ltr-erv-svg-desc">Editable schematic architecture for a representative chicken LTR element. Modules are not drawn to sequence scale.</desc>
+  <rect width="1400" height="250" fill="#FFFFFF"/>
+  
+  <g id="ltr-erv-title">
+    <text x="700" y="63" text-anchor="middle" dominant-baseline="middle"
+      font-family="Georgia, 'Times New Roman', serif" font-size="39" font-weight="700"
+      letter-spacing="0.5" fill="#7BB6AC">LTR</text>
+  </g>
+  <g id="ltr-erv-modules" stroke-linecap="round"><rect id="ltr-erv-module-1" x="138.5" y="134.0" width="180" height="66" rx="15" ry="15" fill="#E7F2F0" stroke="#7BB6AC" stroke-width="5" stroke-linejoin="round"/>
+<rect id="ltr-erv-module-2" x="325.5" y="126.0" width="245" height="82" rx="15" ry="15" fill="#E7F2F0" stroke="#7BB6AC" stroke-width="5" stroke-linejoin="round"/>
+<rect id="ltr-erv-module-3" x="577.5" y="126.0" width="245" height="82" rx="15" ry="15" fill="#E7F2F0" stroke="#7BB6AC" stroke-width="5" stroke-linejoin="round"/>
+<rect id="ltr-erv-module-4" x="829.5" y="126.0" width="245" height="82" rx="15" ry="15" fill="#F3F8F8" stroke="#7BB6AC" stroke-width="5" stroke-dasharray="10 7" stroke-linejoin="round"/>
+<rect id="ltr-erv-module-5" x="1081.5" y="134.0" width="180" height="66" rx="15" ry="15" fill="#E7F2F0" stroke="#7BB6AC" stroke-width="5" stroke-linejoin="round"/></g>
+  <g id="ltr-erv-labels"><text id="ltr-erv-label-1" x="228.5" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="600" fill="#253246">LTR</text>
+<text id="ltr-erv-label-2" x="448.0" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="600" fill="#253246">Gag</text>
+<text id="ltr-erv-label-3" x="700.0" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="600" fill="#253246">Pol</text>
+<text id="ltr-erv-label-4" x="952.0" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="600" fill="#253246">Env*</text>
+<text id="ltr-erv-label-5" x="1171.5" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="600" fill="#253246">LTR</text></g>
+  <!-- Composition variant: intended for 1.5x placement. Title is pre-scaled so its final size remains close to the original; module geometry and internal labels scale 1.5x. -->
+</svg>

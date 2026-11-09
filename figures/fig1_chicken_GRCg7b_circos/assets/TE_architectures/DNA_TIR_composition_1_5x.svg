@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="250" viewBox="0 0 1400 250" role="img" aria-labelledby="dna-tir-svg-title dna-tir-svg-desc">
+  <title id="dna-tir-svg-title">DNA transposable element architecture</title>
+  <desc id="dna-tir-svg-desc">Editable schematic architecture for a representative chicken DNA element. Modules are not drawn to sequence scale.</desc>
+  <rect width="1400" height="250" fill="#FFFFFF"/>
+  
+  <g id="dna-tir-title">
+    <text x="700" y="63" text-anchor="middle" dominant-baseline="middle"
+      font-family="Georgia, 'Times New Roman', serif" font-size="39" font-weight="700"
+      letter-spacing="0.5" fill="#B4AD74">DNA</text>
+  </g>
+  <g id="dna-tir-modules" stroke-linecap="round"><rect id="dna-tir-module-1" x="148.0" y="126.0" width="205" height="82" rx="15" ry="15" fill="#F2F0E6" stroke="#B4AD74" stroke-width="5" stroke-linejoin="round"/>
+<rect id="dna-tir-module-2" x="360.0" y="126.0" width="680" height="82" rx="15" ry="15" fill="#F2F0E6" stroke="#B4AD74" stroke-width="5" stroke-linejoin="round"/>
+<rect id="dna-tir-module-3" x="1047.0" y="126.0" width="205" height="82" rx="15" ry="15" fill="#F2F0E6" stroke="#B4AD74" stroke-width="5" stroke-linejoin="round"/></g>
+  <g id="dna-tir-labels"><text id="dna-tir-label-1" x="250.5" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="600" fill="#253246">TIR</text>
+<text id="dna-tir-label-2" x="700.0" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="31" font-weight="600" fill="#253246">Transposase</text>
+<text id="dna-tir-label-3" x="1149.5" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="600" fill="#253246">TIR</text></g>
+  <!-- Composition variant: intended for 1.5x placement. Title is pre-scaled so its final size remains close to the original; module geometry and internal labels scale 1.5x. -->
+</svg>

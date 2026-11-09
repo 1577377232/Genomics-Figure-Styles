@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="250" viewBox="0 0 1400 250" role="img" aria-labelledby="line-cr1-svg-title line-cr1-svg-desc">
+  <title id="line-cr1-svg-title">LINE transposable element architecture</title>
+  <desc id="line-cr1-svg-desc">Editable schematic architecture for a representative chicken LINE element. Modules are not drawn to sequence scale.</desc>
+  <rect width="1400" height="250" fill="#FFFFFF"/>
+  
+  <g id="line-cr1-title">
+    <text x="700" y="63" text-anchor="middle" dominant-baseline="middle"
+      font-family="Georgia, 'Times New Roman', serif" font-size="39" font-weight="700"
+      letter-spacing="0.5" fill="#386C8C">LINE</text>
+  </g>
+  <g id="line-cr1-modules" stroke-linecap="round"><rect id="line-cr1-module-1" x="63.5" y="126.0" width="185" height="82" rx="15" ry="15" fill="#DBE5EA" stroke="#386C8C" stroke-width="5" stroke-linejoin="round"/>
+<rect id="line-cr1-module-2" x="255.5" y="126.0" width="235" height="82" rx="15" ry="15" fill="#DBE5EA" stroke="#386C8C" stroke-width="5" stroke-linejoin="round"/>
+<rect id="line-cr1-module-3" x="497.5" y="126.0" width="405" height="82" rx="15" ry="15" fill="#DBE5EA" stroke="#386C8C" stroke-width="5" stroke-linejoin="round"/>
+<rect id="line-cr1-module-4" x="909.5" y="126.0" width="185" height="82" rx="15" ry="15" fill="#DBE5EA" stroke="#386C8C" stroke-width="5" stroke-linejoin="round"/>
+<rect id="line-cr1-module-5" x="1101.5" y="126.0" width="235" height="82" rx="15" ry="15" fill="#E9ECF1" stroke="#A1A8BE" stroke-width="5" stroke-linejoin="round"/></g>
+  <g id="line-cr1-labels"><text id="line-cr1-label-1" x="156.0" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="600" fill="#253246">5′ UTR</text>
+<text id="line-cr1-label-2" x="373.0" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="600" fill="#253246">ORF1</text>
+<text id="line-cr1-label-3" x="700.0" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="600" fill="#253246">ORF2</text>
+<text id="line-cr1-label-4" x="1002.0" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="600" fill="#253246">3′ UTR</text>
+<text id="line-cr1-label-5" x="1219.0" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="31" font-weight="600" fill="#253246">3′ repeats</text></g>
+  <!-- Composition variant: intended for 1.5x placement. Title is pre-scaled so its final size remains close to the original; module geometry and internal labels scale 1.5x. -->
+</svg>

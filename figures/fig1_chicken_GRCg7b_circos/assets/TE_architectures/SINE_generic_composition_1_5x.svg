@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="250" viewBox="0 0 1400 250" role="img" aria-labelledby="sine-generic-svg-title sine-generic-svg-desc">
+  <title id="sine-generic-svg-title">SINE transposable element architecture</title>
+  <desc id="sine-generic-svg-desc">Editable schematic architecture for a representative chicken SINE element. Modules are not drawn to sequence scale.</desc>
+  <rect width="1400" height="250" fill="#FFFFFF"/>
+  
+  <g id="sine-generic-title">
+    <text x="700" y="63" text-anchor="middle" dominant-baseline="middle"
+      font-family="Georgia, 'Times New Roman', serif" font-size="39" font-weight="700"
+      letter-spacing="0.5" fill="#9689B9">SINE</text>
+  </g>
+  <g id="sine-generic-modules" stroke-linecap="round"><rect id="sine-generic-module-1" x="167.0" y="126.0" width="230" height="82" rx="15" ry="15" fill="#ECEAF2" stroke="#9689B9" stroke-width="5" stroke-linejoin="round"/>
+<rect id="sine-generic-module-2" x="404.0" y="126.0" width="360" height="82" rx="15" ry="15" fill="#ECEAF2" stroke="#9689B9" stroke-width="5" stroke-linejoin="round"/>
+<rect id="sine-generic-module-3" x="771.0" y="126.0" width="230" height="82" rx="15" ry="15" fill="#ECEAF2" stroke="#9689B9" stroke-width="5" stroke-linejoin="round"/>
+<rect id="sine-generic-module-4" x="1008.0" y="126.0" width="225" height="82" rx="15" ry="15" fill="#E9ECF1" stroke="#A1A8BE" stroke-width="5" stroke-linejoin="round"/></g>
+  <g id="sine-generic-labels"><text id="sine-generic-label-1" x="282.0" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="600" fill="#253246">5′ head</text>
+<text id="sine-generic-label-2" x="584.0" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="600" fill="#253246">Pol III promoter</text>
+<text id="sine-generic-label-3" x="886.0" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="600" fill="#253246">3′ tail</text>
+<text id="sine-generic-label-4" x="1120.5" y="168.0" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="600" fill="#253246">variable tail</text></g>
+  <!-- Composition variant: intended for 1.5x placement. Title is pre-scaled so its final size remains close to the original; module geometry and internal labels scale 1.5x. -->
+</svg>
