@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "protected_files_unchanged": 95,
+  "source": "Frozen R3 SVG; no V15 redraw or genomic computation",
+  "module_width_in": 4.9375,
+  "module_height_in": 0.8816964285714292,
+  "module_canvas_gap_in": 0.08000000000000052,
+  "column_height_in": 4.728482142857149,
+  "circos_height_in": 7.64824317793787,
+  "main_and_true_anchors_unchanged": true,
+  "connector_crossings": 0,
+  "minimum_connector_clearance_pt": 9.992263240876355,
+  "png_pixels": [
+    9928,
+    6000
+  ],
+  "png_dpi": [
+    599.9988,
+    599.9988
+  ],
+  "visual_review": "Preview and DEBUG inspected; modules compact, ordered and unobstructed",
+  "TEV_note": "Schematic >80%; original V15 data remain >50% and >50bp, unchanged."
+}

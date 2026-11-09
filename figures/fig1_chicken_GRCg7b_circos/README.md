@@ -4,7 +4,19 @@ This is the **Circos component of Fig1**, using real GRCg7b data and the reposit
 
 ![Fig1 Circos preview](07_figures/R_v15/chicken_GRCg7b_R_v15_1000kb_adaptive_discovery_TIP-extended_SV-all_palette-pangenome_spectrum.preview.png)
 
-## Latest V3_R3: compact enlarged column and five straight polylines
+## Latest V3_R3_1x: original SVG size and tighter module spacing
+
+[Complete R script](06_scripts/compose_v15_with_te_architectures_v3_r3_1x.R) · [Run/QC](07_figures/R_v15_with_TE_architectures_v3_r3_1x/README.md)
+
+```bash
+bash 06_scripts/run_compose_v15_with_te_architectures_v3_r3_1x.sh
+```
+
+Restores the five original SVGs at width4.9375in. Their centers are now0.961696in apart, with0.08in between SVG canvases; the centered column is4.728482in high. Frozen V15 and R3 are unchanged. Only the modules and connector terminal heights change; source anchors and M/L style are preserved. All five connectors remain independent and noncrossing.
+
+![Compact 1x preview](07_figures/R_v15_with_TE_architectures_v3_r3_1x/chicken_GRCg7b_R_v15_with_TE_architectures_v3_r3_1x.preview.png)
+
+## Previous V3_R3: compact enlarged column and five straight polylines
 
 [Complete R script](06_scripts/compose_v15_with_te_architectures_v3_r3.R) · [Run/QC](07_figures/R_v15_with_TE_architectures_v3_r3/README.md) · [DEBUG origin/gap zoom](07_figures/R_v15_with_TE_architectures_v3_r3/chicken_GRCg7b_R_v15_with_TE_architectures_v3_r3.DEBUG.anchor_zoom.png)
 
