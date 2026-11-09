@@ -1,0 +1,5 @@
+track	file	left_in	top_in	width_in	bar_center_source_y	color	left_pt	top_pt	width_pt	height_pt	scale_x	scale_y	target_y_in	target_x_in
+LINE	LINE_CR1.svg	10	1.45	3.95	125	#386C8C	720	104.4	284.4	59.724	0.2844	0.2844	1.94375	9.9385
+LTR	LTR_ERV.svg	10	3.4	3.95	125	#7BB6AC	720	244.8	284.4	59.724	0.2844	0.2844	3.89375	9.9385
+SINE	SINE_generic.svg	10	5.35	3.95	125	#9689B9	720	385.2	284.4	59.724	0.2844	0.2844	5.84375	9.9385
+DNA	DNA_TIR.svg	10	7.3	3.95	125	#B4AD74	720	525.6	284.4	59.724	0.2844	0.2844	7.79375	9.9385

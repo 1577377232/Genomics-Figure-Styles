@@ -1,0 +1,37 @@
+{
+  "repository": "https://github.com/1577377232/Genomics-Figure-Styles",
+  "commit": "e9072dd7513737c3f005049f3bb56b116b30e030",
+  "source_directory": "chicken_7b_TE_circos/08_publication/Genomics-Figure-Styles/figures/fig1_chicken_GRCg7b_circos/assets/TE_architectures",
+  "files": [
+    {
+      "file": "DNA_TIR.svg",
+      "sha256": "dcf97a13f8b5f4a3b23e15fd696dc0ebdc249249af9dd30f31633b716a95418c",
+      "bytes": 1866
+    },
+    {
+      "file": "LINE_CR1.svg",
+      "sha256": "20833355ec2b104bf9e1f176e0c70aeae0602a821889769159d133301848c6a4",
+      "bytes": 2302
+    },
+    {
+      "file": "LTR_ERV.svg",
+      "sha256": "1d9b426665e14ccfb811e5b9ed0a7e53ad3e2ccf926a307560c6e5e7094ab5d8",
+      "bytes": 2635
+    },
+    {
+      "file": "README.md",
+      "sha256": "32451d34352bf623c5695463c421d0129f1bcfee31098a680f37d493ce22a260",
+      "bytes": 3639
+    },
+    {
+      "file": "SINE_generic.svg",
+      "sha256": "4199cc89aec01626f0831530d32fc92af032ed093ac32e69ede165ff3cbb4e13",
+      "bytes": 2243
+    },
+    {
+      "file": "TE_architectures_4up.svg",
+      "sha256": "67525978a6fc5f95c5e0821bed4184e23ed368932cd04a247e4df701dda579cf",
+      "bytes": 8761
+    }
+  ]
+}

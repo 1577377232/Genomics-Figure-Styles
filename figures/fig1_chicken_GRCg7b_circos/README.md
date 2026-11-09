@@ -54,3 +54,19 @@ Outline#253246, text#273746, white background; uniform ideogram#F1F4F6; full-hei
 The R input/output manifests preserve the original execution paths; the script resolves the included inputs relative to this folder after clone. `repository_files.sha256.tsv` checks the published files independently of those original machine paths. Optional historical preparation scripts have their original workspace dependencies and are not needed for redraw. The statistical preparation pipeline was not rerun for this label update.
 
 Validation: exact seven-track input hashes, curves, scales, colors, centromere marks and heat colors match V14; actual PDF text has the requested center labels and no opening-side unit titles. Actual PNG is5880×6000 at600dpi. See `07_figures/R_v15/validation_report.json` and `portable_validation.json`.
+
+
+## Compose V15 with the TE architecture callouts
+
+The original V15 files and plotting code remain unchanged. A separate R compositor reads the finalized SVG and the four original architecture SVGs from `assets/TE_architectures/`. It preserves the original annular clips, embeds editable structure text, and adds one short lower-right stem with four black fan-out arrows. The callouts are schematic type illustrations, not genomic mappings.
+
+```bash
+bash 06_scripts/install_composition_R_dependencies.sh
+bash 06_scripts/run_compose_v15_with_te_architectures.sh
+# Fast SVG/preview-only iteration:
+bash 06_scripts/run_compose_v15_with_te_architectures.sh --preview-only
+```
+
+See the [complete R composition script](06_scripts/compose_v15_with_te_architectures.R) and [composition README/QC](07_figures/R_v15_with_TE_architectures/README.md). Page14×10in; vector PDF/SVG; PNG8400×6000 at600dpi. Positions and arrow bends are in `composition_config()`, in physical inches.
+
+![V15 with four representative TE architecture callouts](07_figures/R_v15_with_TE_architectures/chicken_GRCg7b_R_v15_with_TE_architectures.preview.png)

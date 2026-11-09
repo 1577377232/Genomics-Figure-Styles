@@ -1,0 +1,5 @@
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+DZGHXY+LiberationSans-Bold           TrueType          WinAnsi          yes yes yes      6  0
+SRCFHA+LiberationSans                TrueType          WinAnsi          yes yes yes      7  0
+SBCDGC+LiberationSans                CID TrueType      Identity-H       yes yes yes      8  0

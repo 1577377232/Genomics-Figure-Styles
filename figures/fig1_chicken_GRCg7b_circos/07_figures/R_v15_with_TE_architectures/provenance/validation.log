@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "V15_vector_contents_identical": true,
+  "all_four_architecture_vector_contents_identical": true,
+  "original_inputs_unchanged": 49,
+  "V15_clip_paths_preserved": 325,
+  "duplicate_ids": 0,
+  "unresolved_SVG_references": 0,
+  "arrowheads": 4,
+  "stems": 1,
+  "branches": 4,
+  "connectors_cross_data": false,
+  "connectors_cross_annotation_boxes": false,
+  "origin_below_circle_center": true,
+  "original_asset_text_nodes_retained": 24,
+  "images_embedded_in_SVG": 0,
+  "images_embedded_in_PDF": 0,
+  "PDF_inches": [
+    14,
+    10
+  ],
+  "PNG_pixels": [
+    8400,
+    6000
+  ],
+  "PNG_dpi": 600,
+  "preview_pixels": [
+    2100,
+    1500
+  ],
+  "genomic_data_recalculated": false
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "repository_copy_runs_from_unrelated_directory": true,
+  "original_V15_rerendered": false,
+  "raw_genomic_inputs_required": false,
+  "dependency_library": "Existing composition_R_library used; isolated installer provided",
+  "stderr": "Done: /tmp/circos_composition_portable_fbls0an9; unchanged protected inputs: 46\n"
+}
