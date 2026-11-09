@@ -1,9 +1,14 @@
-# TE-mediated SV schematic
+# TE-mediated SV (TEV) schematic
 
-A compact, single-row SVG module designed to sit alongside the LINE, LTR, SINE and DNA architecture schematics.
+A minimal one-row schematic showing the project's operational classification rule:
 
-**Operational rule:** classify an SV as TE-mediated when **more than 80%** of its interval is covered by TE sequence. The small neutral segment represents the remaining non-TE sequence. The displayed segment proportions are illustrative, not a claim that every qualifying SV has exactly 84% TE coverage.
+**For a called SV interval, if more than 80% of the SV sequence is covered by TE sequence, classify that SV as a TE-mediated variant (TEV).**
 
-For calculations, use the union of TE-annotated bases within the SV interval so overlapping TE annotations are not double-counted. This is an overlap-based operational classification; overlap alone does not prove the molecular mechanism of SV formation.
+- The outlined bar represents the **SV interval / SV sequence**.
+- The coral segment represents **TE-covered sequence (>80%)**.
+- The small neutral segment represents **other sequence (<20%)**.
+- The arrow indicates classification of the qualifying SV as **TEV**.
 
-Style follows the repository's Pangenome Spectrum figure system: coral accent `#E85B4A`, neutral slate `#A1A8BE`, dark text `#253246`, rounded modules and serif labels. Canvas size is 1400 × 250 to match the four TE architecture SVGs.
+For quantitative implementation, calculate TE coverage from the union of TE-annotated bases within the SV interval so overlapping TE annotations are not double-counted. The SVG is a conceptual illustration, not a depiction of exact genomic coordinates or a specific observed SV.
+
+The figure uses the repository's established coral accent (`#E85B4A`), dark slate typography (`#253246`), neutral grey, rounded modules, and a 1400 × 250 canvas matching the TE architecture schematics.
