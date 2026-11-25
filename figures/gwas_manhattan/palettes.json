@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0.0",
+  "schema_version": "2.1.0",
   "default": "pangenome_spectrum",
   "palettes": {
     "pangenome_spectrum": {
@@ -49,6 +49,13 @@
       "te_DEL": "#633A99",
       "te_OTHER": "#E49A31",
       "lead_outline": "#253246"
+    },
+    "variant_class": {
+      "label": "SNP / SV / TEV",
+      "intent": "Variant identity, matching the clean qualitative-trait plots",
+      "SNP": "#386C8C",
+      "SV": "#9689B9",
+      "TEV": "#E75A46"
     }
   }
 }

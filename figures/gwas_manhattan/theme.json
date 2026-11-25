@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0.0",
+  "schema_version": "2.1.0",
   "name": "CWD Pan-TE genomics figure theme",
   "default_palette": "pangenome_spectrum",
   "palettes_file": "palettes.json",
@@ -146,5 +146,43 @@
     "write_qc_tsv": true,
     "write_plot_manifest_json": true,
     "write_failures_tsv": true
+  },
+  "default_profile": "compact_snp_sv_tev",
+  "profiles": {
+    "compact_snp_sv_tev": {
+      "width_mm": 183,
+      "height_mm": 68,
+      "dpi": 600,
+      "palette": "variant_class",
+      "chromosome_gap_bp": 12000000,
+      "outer_padding_bp": 12000000,
+      "TEV_coverage_min_inclusive": 0.5,
+      "TEV_coverage_denominator": "trimmed changed allele sequence",
+      "coverage_requires_exact_REF_ALT_match": true,
+      "unknown_annotation": "SV display layer; report unknown count separately",
+      "point_shape": "o",
+      "point_size_pt2": {
+        "SNP": 2.3,
+        "SV": 3.1,
+        "TEV": 3.1
+      },
+      "point_alpha": 0.8,
+      "annotate_peaks": false,
+      "annotate_candidate_positions": false,
+      "caption_in_figure": false,
+      "title_language": "en",
+      "title": "verified trait name and units only",
+      "rasterize_dense_variant_layers": true,
+      "editable_text": true,
+      "threshold_P_default": null,
+      "threshold_requires_provenance": true,
+      "example_candidate_display_line_P": 0.00001,
+      "example_line_is_genomewide_significance": false,
+      "legend_anchor_axes": [
+        1,
+        1.07
+      ],
+      "batch_count": "real input manifest; no fixed 89 requirement"
+    }
   }
 }

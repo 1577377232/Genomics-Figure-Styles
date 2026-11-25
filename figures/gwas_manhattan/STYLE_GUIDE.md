@@ -1,3 +1,7 @@
+
+
+## Current compact SNP/SV/TEV profile (2026-11-25)
+For joint SNP/SV/TEV plots, use the `compact_snp_sv_tev` profile in `theme.json` and [CLEAN_PROFILE.md](CLEAN_PROFILE.md). It takes precedence over legacy chromosome-cycle colors, TE subtype shapes, fixed batch size, and TE-vector rendering for this profile. It uses 183 × 68 mm, blue/lavender/coral variant classes, outer chromosome padding, English trait titles and no peak annotations or explanatory footers. TEV means TE-only coverage **≥50%**, joined to the actual GWAS marker inventory by exact complete REF/ALT identity. Unknown coverage is separately audited. The earlier specifications below remain available for other plot styles.
 # Scientific figure style and statistical integrity — v2.0
 
 ## Visual language
