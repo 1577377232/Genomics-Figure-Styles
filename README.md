@@ -6,6 +6,7 @@ A reusable, publication-oriented visual style library for chicken pangenomics, t
 
 ## Start here
 
+- [基因型–表型箱线图 / Genotype–phenotype boxplot](figures/genotype_phenotype_boxplot/README.md)
 - [SNP + TE Manhattan style guide](figures/gwas_manhattan/STYLE_GUIDE.md)
 - [Machine-readable theme](figures/gwas_manhattan/theme.json)
 - [Three coordinated palettes](figures/gwas_manhattan/palettes.json)
