@@ -1,0 +1,7 @@
+data/
+figures/
+outputs/
+*.rds
+*.RData
+Rplots.pdf
+case_config.json

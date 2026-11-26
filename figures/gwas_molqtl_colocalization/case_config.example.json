@@ -1,0 +1,12 @@
+{
+  "FOCAL_LABEL": "Verified focal variant name",
+  "TRAIT_LABEL": "Verified GWAS trait and units",
+  "GWAS_POP_LABEL": "Actual GWAS population",
+  "GENE_LABEL": "Verified gene and molecular feature type",
+  "OUTPUT_PREFIX": "colocalization",
+  "WIDTH_MM": 105,
+  "HEIGHT_MM": 100,
+  "HALF_WINDOW_BP": 1000000,
+  "SHOW_FOCAL_LINE_ANNOTATED": true,
+  "SHOW_FOCAL_LINE_CLEAN": false
+}
