@@ -108,7 +108,7 @@ prepare <- function(input,ld_file,pos_col,p_col,type_col,track) {
   # Explicit layer audit: focal is removed from its base class and drawn once, last.
   draw <- plot[plot$variant_id!=focal_id,,drop=FALSE]
   draw$draw_layer <- as.character(draw$plot_class)
-  ff <- plot[plot$variant_id==focal_id,,drop=FALSE];ff$draw_layer <- 'focal'
+  ff <- plot[plot$variant_id==focal_id,,drop=FALSE];ff$draw_layer <- rep('focal',nrow(ff))
   draw <- rbind(draw,ff);draw$draw_order <- seq_len(nrow(draw))
   stopifnot(nrow(draw)==nrow(plot),!anyDuplicated(draw$variant_id))
   if(nrow(ff))stopifnot(tail(draw$variant_id,1)==focal_id)
