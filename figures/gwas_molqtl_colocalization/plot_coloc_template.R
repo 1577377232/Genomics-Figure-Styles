@@ -15,6 +15,7 @@ SUPPLEMENT_HEIGHT_MM <- 45
 FONT_FAMILY <- 'Liberation Sans'
 BASE_SIZE <- 7
 LABEL_SIZE_PT <- 6.2
+LABEL_WRAP_WIDTH <- 28 # wrap long verified trait/gene labels without changing their identity
 INK <- '#253246'
 LD_COLOURS <- c('#386C8C','#6681A2','#9689B9','#C6A8A0','#E5C65F')
 LD_MISSING_COLOUR <- '#D9DDE2'
@@ -185,9 +186,10 @@ panel <- function(case,left_label,right_label,bottom=FALSE,threshold=NULL,thresh
 pip_label <- if(is.null(pip)) 'PIP unavailable' else sprintf('PIP (+/-%g kb) = %s',pip$half_window_bp/1000,fmt_pp(pip$PIP))
 g_label <- paste0(FOCAL_LABEL,'\nP = ',fmt_p(fg$association_P),'\n',pip_label)
 m_label <- paste0('P = ',fmt_p(fm$association_P),'\nPPH4 = ',fmt_pp(row$PPH4),'\nSV joint PP = ',fmt_pp(row$focal_joint_shared_PP))
+wrap_label <- function(x) paste(strwrap(x,width=LABEL_WRAP_WIDTH),collapse='\n')
 make_main <- function(version) {
-  p1 <- panel(g,paste0(TRAIT_LABEL,'\nGWAS | ',row$GWAS_model,' | ',GWAS_POP_LABEL,' (n=',row$N_GWAS,')'),g_label,FALSE,GWAS_THRESHOLD_P,GWAS_THRESHOLD_SOURCE,version)
-  p2 <- panel(m,paste0(GENE_LABEL,'\n',row$scope,' | ',row$molecular_model,' (n=',row$N_mol,')'),m_label,TRUE,MOL_THRESHOLD_P,MOL_THRESHOLD_SOURCE,version)
+  p1 <- panel(g,paste0(wrap_label(TRAIT_LABEL),'\nGWAS | ',row$GWAS_model,' | ',GWAS_POP_LABEL,' (n=',row$N_GWAS,')'),g_label,FALSE,GWAS_THRESHOLD_P,GWAS_THRESHOLD_SOURCE,version)
+  p2 <- panel(m,paste0(wrap_label(GENE_LABEL),'\n',row$scope,' | ',row$molecular_model,' (n=',row$N_mol,')'),m_label,TRUE,MOL_THRESHOLD_P,MOL_THRESHOLD_SOURCE,version)
   ((p1/p2)+plot_layout(heights=TRACK_HEIGHTS,guides='collect')) & theme(legend.position='right')
 }
 main_annotated <- make_main('annotated')
